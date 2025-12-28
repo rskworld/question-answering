@@ -1,0 +1,1650 @@
+{
+  "_metadata": {
+    "project": "Question Answering Dataset - Board Question Papers",
+    "author": "Molla Samser",
+    "website": "https://rskworld.in",
+    "contact": "help@rskworld.in",
+    "phone": "+91 93305 39277"
+  },
+  "generated_files": [
+    {
+      "type": "board",
+      "board": "West Bengal Board",
+      "board_code": "WBBSE",
+      "class": "Class 10",
+      "subject": "English",
+      "year": 2020,
+      "filepath": "question-papers\\boards\\West-Bengal-Board\\Class-10\\English\\2020\\WBBSE-Class-10-English-2020.pdf"
+    },
+    {
+      "type": "board",
+      "board": "West Bengal Board",
+      "board_code": "WBBSE",
+      "class": "Class 10",
+      "subject": "English",
+      "year": 2021,
+      "filepath": "question-papers\\boards\\West-Bengal-Board\\Class-10\\English\\2021\\WBBSE-Class-10-English-2021.pdf"
+    },
+    {
+      "type": "board",
+      "board": "West Bengal Board",
+      "board_code": "WBBSE",
+      "class": "Class 10",
+      "subject": "English",
+      "year": 2022,
+      "filepath": "question-papers\\boards\\West-Bengal-Board\\Class-10\\English\\2022\\WBBSE-Class-10-English-2022.pdf"
+    },
+    {
+      "type": "board",
+      "board": "West Bengal Board",
+      "board_code": "WBBSE",
+      "class": "Class 10",
+      "subject": "English",
+      "year": 2023,
+      "filepath": "question-papers\\boards\\West-Bengal-Board\\Class-10\\English\\2023\\WBBSE-Class-10-English-2023.pdf"
+    },
+    {
+      "type": "board",
+      "board": "West Bengal Board",
+      "board_code": "WBBSE",
+      "class": "Class 10",
+      "subject": "English",
+      "year": 2024,
+      "filepath": "question-papers\\boards\\West-Bengal-Board\\Class-10\\English\\2024\\WBBSE-Class-10-English-2024.pdf"
+    },
+    {
+      "type": "board",
+      "board": "West Bengal Board",
+      "board_code": "WBBSE",
+      "class": "Class 10",
+      "subject": "English",
+      "year": 2025,
+      "filepath": "question-papers\\boards\\West-Bengal-Board\\Class-10\\English\\2025\\WBBSE-Class-10-English-2025.pdf"
+    },
+    {
+      "type": "board",
+      "board": "West Bengal Board",
+      "board_code": "WBBSE",
+      "class": "Class 10",
+      "subject": "Mathematics",
+      "year": 2020,
+      "filepath": "question-papers\\boards\\West-Bengal-Board\\Class-10\\Mathematics\\2020\\WBBSE-Class-10-Mathematics-2020.pdf"
+    },
+    {
+      "type": "board",
+      "board": "West Bengal Board",
+      "board_code": "WBBSE",
+      "class": "Class 10",
+      "subject": "Mathematics",
+      "year": 2021,
+      "filepath": "question-papers\\boards\\West-Bengal-Board\\Class-10\\Mathematics\\2021\\WBBSE-Class-10-Mathematics-2021.pdf"
+    },
+    {
+      "type": "board",
+      "board": "West Bengal Board",
+      "board_code": "WBBSE",
+      "class": "Class 10",
+      "subject": "Mathematics",
+      "year": 2022,
+      "filepath": "question-papers\\boards\\West-Bengal-Board\\Class-10\\Mathematics\\2022\\WBBSE-Class-10-Mathematics-2022.pdf"
+    },
+    {
+      "type": "board",
+      "board": "West Bengal Board",
+      "board_code": "WBBSE",
+      "class": "Class 10",
+      "subject": "Mathematics",
+      "year": 2023,
+      "filepath": "question-papers\\boards\\West-Bengal-Board\\Class-10\\Mathematics\\2023\\WBBSE-Class-10-Mathematics-2023.pdf"
+    },
+    {
+      "type": "board",
+      "board": "West Bengal Board",
+      "board_code": "WBBSE",
+      "class": "Class 10",
+      "subject": "Mathematics",
+      "year": 2024,
+      "filepath": "question-papers\\boards\\West-Bengal-Board\\Class-10\\Mathematics\\2024\\WBBSE-Class-10-Mathematics-2024.pdf"
+    },
+    {
+      "type": "board",
+      "board": "West Bengal Board",
+      "board_code": "WBBSE",
+      "class": "Class 10",
+      "subject": "Mathematics",
+      "year": 2025,
+      "filepath": "question-papers\\boards\\West-Bengal-Board\\Class-10\\Mathematics\\2025\\WBBSE-Class-10-Mathematics-2025.pdf"
+    },
+    {
+      "type": "board",
+      "board": "West Bengal Board",
+      "board_code": "WBBSE",
+      "class": "Class 10",
+      "subject": "Science",
+      "year": 2020,
+      "filepath": "question-papers\\boards\\West-Bengal-Board\\Class-10\\Science\\2020\\WBBSE-Class-10-Science-2020.pdf"
+    },
+    {
+      "type": "board",
+      "board": "West Bengal Board",
+      "board_code": "WBBSE",
+      "class": "Class 10",
+      "subject": "Science",
+      "year": 2021,
+      "filepath": "question-papers\\boards\\West-Bengal-Board\\Class-10\\Science\\2021\\WBBSE-Class-10-Science-2021.pdf"
+    },
+    {
+      "type": "board",
+      "board": "West Bengal Board",
+      "board_code": "WBBSE",
+      "class": "Class 10",
+      "subject": "Science",
+      "year": 2022,
+      "filepath": "question-papers\\boards\\West-Bengal-Board\\Class-10\\Science\\2022\\WBBSE-Class-10-Science-2022.pdf"
+    },
+    {
+      "type": "board",
+      "board": "West Bengal Board",
+      "board_code": "WBBSE",
+      "class": "Class 10",
+      "subject": "Science",
+      "year": 2023,
+      "filepath": "question-papers\\boards\\West-Bengal-Board\\Class-10\\Science\\2023\\WBBSE-Class-10-Science-2023.pdf"
+    },
+    {
+      "type": "board",
+      "board": "West Bengal Board",
+      "board_code": "WBBSE",
+      "class": "Class 10",
+      "subject": "Science",
+      "year": 2024,
+      "filepath": "question-papers\\boards\\West-Bengal-Board\\Class-10\\Science\\2024\\WBBSE-Class-10-Science-2024.pdf"
+    },
+    {
+      "type": "board",
+      "board": "West Bengal Board",
+      "board_code": "WBBSE",
+      "class": "Class 10",
+      "subject": "Science",
+      "year": 2025,
+      "filepath": "question-papers\\boards\\West-Bengal-Board\\Class-10\\Science\\2025\\WBBSE-Class-10-Science-2025.pdf"
+    },
+    {
+      "type": "board",
+      "board": "West Bengal Board",
+      "board_code": "WBBSE",
+      "class": "Class 10",
+      "subject": "History",
+      "year": 2020,
+      "filepath": "question-papers\\boards\\West-Bengal-Board\\Class-10\\History\\2020\\WBBSE-Class-10-History-2020.pdf"
+    },
+    {
+      "type": "board",
+      "board": "West Bengal Board",
+      "board_code": "WBBSE",
+      "class": "Class 10",
+      "subject": "History",
+      "year": 2021,
+      "filepath": "question-papers\\boards\\West-Bengal-Board\\Class-10\\History\\2021\\WBBSE-Class-10-History-2021.pdf"
+    },
+    {
+      "type": "board",
+      "board": "West Bengal Board",
+      "board_code": "WBBSE",
+      "class": "Class 10",
+      "subject": "History",
+      "year": 2022,
+      "filepath": "question-papers\\boards\\West-Bengal-Board\\Class-10\\History\\2022\\WBBSE-Class-10-History-2022.pdf"
+    },
+    {
+      "type": "board",
+      "board": "West Bengal Board",
+      "board_code": "WBBSE",
+      "class": "Class 10",
+      "subject": "History",
+      "year": 2023,
+      "filepath": "question-papers\\boards\\West-Bengal-Board\\Class-10\\History\\2023\\WBBSE-Class-10-History-2023.pdf"
+    },
+    {
+      "type": "board",
+      "board": "West Bengal Board",
+      "board_code": "WBBSE",
+      "class": "Class 10",
+      "subject": "History",
+      "year": 2024,
+      "filepath": "question-papers\\boards\\West-Bengal-Board\\Class-10\\History\\2024\\WBBSE-Class-10-History-2024.pdf"
+    },
+    {
+      "type": "board",
+      "board": "West Bengal Board",
+      "board_code": "WBBSE",
+      "class": "Class 10",
+      "subject": "History",
+      "year": 2025,
+      "filepath": "question-papers\\boards\\West-Bengal-Board\\Class-10\\History\\2025\\WBBSE-Class-10-History-2025.pdf"
+    },
+    {
+      "type": "board",
+      "board": "West Bengal Board",
+      "board_code": "WBBSE",
+      "class": "Class 10",
+      "subject": "Geography",
+      "year": 2020,
+      "filepath": "question-papers\\boards\\West-Bengal-Board\\Class-10\\Geography\\2020\\WBBSE-Class-10-Geography-2020.pdf"
+    },
+    {
+      "type": "board",
+      "board": "West Bengal Board",
+      "board_code": "WBBSE",
+      "class": "Class 10",
+      "subject": "Geography",
+      "year": 2021,
+      "filepath": "question-papers\\boards\\West-Bengal-Board\\Class-10\\Geography\\2021\\WBBSE-Class-10-Geography-2021.pdf"
+    },
+    {
+      "type": "board",
+      "board": "West Bengal Board",
+      "board_code": "WBBSE",
+      "class": "Class 10",
+      "subject": "Geography",
+      "year": 2022,
+      "filepath": "question-papers\\boards\\West-Bengal-Board\\Class-10\\Geography\\2022\\WBBSE-Class-10-Geography-2022.pdf"
+    },
+    {
+      "type": "board",
+      "board": "West Bengal Board",
+      "board_code": "WBBSE",
+      "class": "Class 10",
+      "subject": "Geography",
+      "year": 2023,
+      "filepath": "question-papers\\boards\\West-Bengal-Board\\Class-10\\Geography\\2023\\WBBSE-Class-10-Geography-2023.pdf"
+    },
+    {
+      "type": "board",
+      "board": "West Bengal Board",
+      "board_code": "WBBSE",
+      "class": "Class 10",
+      "subject": "Geography",
+      "year": 2024,
+      "filepath": "question-papers\\boards\\West-Bengal-Board\\Class-10\\Geography\\2024\\WBBSE-Class-10-Geography-2024.pdf"
+    },
+    {
+      "type": "board",
+      "board": "West Bengal Board",
+      "board_code": "WBBSE",
+      "class": "Class 10",
+      "subject": "Geography",
+      "year": 2025,
+      "filepath": "question-papers\\boards\\West-Bengal-Board\\Class-10\\Geography\\2025\\WBBSE-Class-10-Geography-2025.pdf"
+    },
+    {
+      "type": "board",
+      "board": "West Bengal Board",
+      "board_code": "WBCHSE",
+      "class": "Class 12",
+      "subject": "English",
+      "year": 2020,
+      "filepath": "question-papers\\boards\\West-Bengal-Board\\Class-12\\English\\2020\\WBCHSE-Class-12-English-2020.pdf"
+    },
+    {
+      "type": "board",
+      "board": "West Bengal Board",
+      "board_code": "WBCHSE",
+      "class": "Class 12",
+      "subject": "English",
+      "year": 2021,
+      "filepath": "question-papers\\boards\\West-Bengal-Board\\Class-12\\English\\2021\\WBCHSE-Class-12-English-2021.pdf"
+    },
+    {
+      "type": "board",
+      "board": "West Bengal Board",
+      "board_code": "WBCHSE",
+      "class": "Class 12",
+      "subject": "English",
+      "year": 2022,
+      "filepath": "question-papers\\boards\\West-Bengal-Board\\Class-12\\English\\2022\\WBCHSE-Class-12-English-2022.pdf"
+    },
+    {
+      "type": "board",
+      "board": "West Bengal Board",
+      "board_code": "WBCHSE",
+      "class": "Class 12",
+      "subject": "English",
+      "year": 2023,
+      "filepath": "question-papers\\boards\\West-Bengal-Board\\Class-12\\English\\2023\\WBCHSE-Class-12-English-2023.pdf"
+    },
+    {
+      "type": "board",
+      "board": "West Bengal Board",
+      "board_code": "WBCHSE",
+      "class": "Class 12",
+      "subject": "English",
+      "year": 2024,
+      "filepath": "question-papers\\boards\\West-Bengal-Board\\Class-12\\English\\2024\\WBCHSE-Class-12-English-2024.pdf"
+    },
+    {
+      "type": "board",
+      "board": "West Bengal Board",
+      "board_code": "WBCHSE",
+      "class": "Class 12",
+      "subject": "English",
+      "year": 2025,
+      "filepath": "question-papers\\boards\\West-Bengal-Board\\Class-12\\English\\2025\\WBCHSE-Class-12-English-2025.pdf"
+    },
+    {
+      "type": "board",
+      "board": "West Bengal Board",
+      "board_code": "WBCHSE",
+      "class": "Class 12",
+      "subject": "Mathematics",
+      "year": 2020,
+      "filepath": "question-papers\\boards\\West-Bengal-Board\\Class-12\\Mathematics\\2020\\WBCHSE-Class-12-Mathematics-2020.pdf"
+    },
+    {
+      "type": "board",
+      "board": "West Bengal Board",
+      "board_code": "WBCHSE",
+      "class": "Class 12",
+      "subject": "Mathematics",
+      "year": 2021,
+      "filepath": "question-papers\\boards\\West-Bengal-Board\\Class-12\\Mathematics\\2021\\WBCHSE-Class-12-Mathematics-2021.pdf"
+    },
+    {
+      "type": "board",
+      "board": "West Bengal Board",
+      "board_code": "WBCHSE",
+      "class": "Class 12",
+      "subject": "Mathematics",
+      "year": 2022,
+      "filepath": "question-papers\\boards\\West-Bengal-Board\\Class-12\\Mathematics\\2022\\WBCHSE-Class-12-Mathematics-2022.pdf"
+    },
+    {
+      "type": "board",
+      "board": "West Bengal Board",
+      "board_code": "WBCHSE",
+      "class": "Class 12",
+      "subject": "Mathematics",
+      "year": 2023,
+      "filepath": "question-papers\\boards\\West-Bengal-Board\\Class-12\\Mathematics\\2023\\WBCHSE-Class-12-Mathematics-2023.pdf"
+    },
+    {
+      "type": "board",
+      "board": "West Bengal Board",
+      "board_code": "WBCHSE",
+      "class": "Class 12",
+      "subject": "Mathematics",
+      "year": 2024,
+      "filepath": "question-papers\\boards\\West-Bengal-Board\\Class-12\\Mathematics\\2024\\WBCHSE-Class-12-Mathematics-2024.pdf"
+    },
+    {
+      "type": "board",
+      "board": "West Bengal Board",
+      "board_code": "WBCHSE",
+      "class": "Class 12",
+      "subject": "Mathematics",
+      "year": 2025,
+      "filepath": "question-papers\\boards\\West-Bengal-Board\\Class-12\\Mathematics\\2025\\WBCHSE-Class-12-Mathematics-2025.pdf"
+    },
+    {
+      "type": "board",
+      "board": "West Bengal Board",
+      "board_code": "WBCHSE",
+      "class": "Class 12",
+      "subject": "Physics",
+      "year": 2020,
+      "filepath": "question-papers\\boards\\West-Bengal-Board\\Class-12\\Physics\\2020\\WBCHSE-Class-12-Physics-2020.pdf"
+    },
+    {
+      "type": "board",
+      "board": "West Bengal Board",
+      "board_code": "WBCHSE",
+      "class": "Class 12",
+      "subject": "Physics",
+      "year": 2021,
+      "filepath": "question-papers\\boards\\West-Bengal-Board\\Class-12\\Physics\\2021\\WBCHSE-Class-12-Physics-2021.pdf"
+    },
+    {
+      "type": "board",
+      "board": "West Bengal Board",
+      "board_code": "WBCHSE",
+      "class": "Class 12",
+      "subject": "Physics",
+      "year": 2022,
+      "filepath": "question-papers\\boards\\West-Bengal-Board\\Class-12\\Physics\\2022\\WBCHSE-Class-12-Physics-2022.pdf"
+    },
+    {
+      "type": "board",
+      "board": "West Bengal Board",
+      "board_code": "WBCHSE",
+      "class": "Class 12",
+      "subject": "Physics",
+      "year": 2023,
+      "filepath": "question-papers\\boards\\West-Bengal-Board\\Class-12\\Physics\\2023\\WBCHSE-Class-12-Physics-2023.pdf"
+    },
+    {
+      "type": "board",
+      "board": "West Bengal Board",
+      "board_code": "WBCHSE",
+      "class": "Class 12",
+      "subject": "Physics",
+      "year": 2024,
+      "filepath": "question-papers\\boards\\West-Bengal-Board\\Class-12\\Physics\\2024\\WBCHSE-Class-12-Physics-2024.pdf"
+    },
+    {
+      "type": "board",
+      "board": "West Bengal Board",
+      "board_code": "WBCHSE",
+      "class": "Class 12",
+      "subject": "Physics",
+      "year": 2025,
+      "filepath": "question-papers\\boards\\West-Bengal-Board\\Class-12\\Physics\\2025\\WBCHSE-Class-12-Physics-2025.pdf"
+    },
+    {
+      "type": "board",
+      "board": "West Bengal Board",
+      "board_code": "WBCHSE",
+      "class": "Class 12",
+      "subject": "Chemistry",
+      "year": 2020,
+      "filepath": "question-papers\\boards\\West-Bengal-Board\\Class-12\\Chemistry\\2020\\WBCHSE-Class-12-Chemistry-2020.pdf"
+    },
+    {
+      "type": "board",
+      "board": "West Bengal Board",
+      "board_code": "WBCHSE",
+      "class": "Class 12",
+      "subject": "Chemistry",
+      "year": 2021,
+      "filepath": "question-papers\\boards\\West-Bengal-Board\\Class-12\\Chemistry\\2021\\WBCHSE-Class-12-Chemistry-2021.pdf"
+    },
+    {
+      "type": "board",
+      "board": "West Bengal Board",
+      "board_code": "WBCHSE",
+      "class": "Class 12",
+      "subject": "Chemistry",
+      "year": 2022,
+      "filepath": "question-papers\\boards\\West-Bengal-Board\\Class-12\\Chemistry\\2022\\WBCHSE-Class-12-Chemistry-2022.pdf"
+    },
+    {
+      "type": "board",
+      "board": "West Bengal Board",
+      "board_code": "WBCHSE",
+      "class": "Class 12",
+      "subject": "Chemistry",
+      "year": 2023,
+      "filepath": "question-papers\\boards\\West-Bengal-Board\\Class-12\\Chemistry\\2023\\WBCHSE-Class-12-Chemistry-2023.pdf"
+    },
+    {
+      "type": "board",
+      "board": "West Bengal Board",
+      "board_code": "WBCHSE",
+      "class": "Class 12",
+      "subject": "Chemistry",
+      "year": 2024,
+      "filepath": "question-papers\\boards\\West-Bengal-Board\\Class-12\\Chemistry\\2024\\WBCHSE-Class-12-Chemistry-2024.pdf"
+    },
+    {
+      "type": "board",
+      "board": "West Bengal Board",
+      "board_code": "WBCHSE",
+      "class": "Class 12",
+      "subject": "Chemistry",
+      "year": 2025,
+      "filepath": "question-papers\\boards\\West-Bengal-Board\\Class-12\\Chemistry\\2025\\WBCHSE-Class-12-Chemistry-2025.pdf"
+    },
+    {
+      "type": "board",
+      "board": "West Bengal Board",
+      "board_code": "WBCHSE",
+      "class": "Class 12",
+      "subject": "Biology",
+      "year": 2020,
+      "filepath": "question-papers\\boards\\West-Bengal-Board\\Class-12\\Biology\\2020\\WBCHSE-Class-12-Biology-2020.pdf"
+    },
+    {
+      "type": "board",
+      "board": "West Bengal Board",
+      "board_code": "WBCHSE",
+      "class": "Class 12",
+      "subject": "Biology",
+      "year": 2021,
+      "filepath": "question-papers\\boards\\West-Bengal-Board\\Class-12\\Biology\\2021\\WBCHSE-Class-12-Biology-2021.pdf"
+    },
+    {
+      "type": "board",
+      "board": "West Bengal Board",
+      "board_code": "WBCHSE",
+      "class": "Class 12",
+      "subject": "Biology",
+      "year": 2022,
+      "filepath": "question-papers\\boards\\West-Bengal-Board\\Class-12\\Biology\\2022\\WBCHSE-Class-12-Biology-2022.pdf"
+    },
+    {
+      "type": "board",
+      "board": "West Bengal Board",
+      "board_code": "WBCHSE",
+      "class": "Class 12",
+      "subject": "Biology",
+      "year": 2023,
+      "filepath": "question-papers\\boards\\West-Bengal-Board\\Class-12\\Biology\\2023\\WBCHSE-Class-12-Biology-2023.pdf"
+    },
+    {
+      "type": "board",
+      "board": "West Bengal Board",
+      "board_code": "WBCHSE",
+      "class": "Class 12",
+      "subject": "Biology",
+      "year": 2024,
+      "filepath": "question-papers\\boards\\West-Bengal-Board\\Class-12\\Biology\\2024\\WBCHSE-Class-12-Biology-2024.pdf"
+    },
+    {
+      "type": "board",
+      "board": "West Bengal Board",
+      "board_code": "WBCHSE",
+      "class": "Class 12",
+      "subject": "Biology",
+      "year": 2025,
+      "filepath": "question-papers\\boards\\West-Bengal-Board\\Class-12\\Biology\\2025\\WBCHSE-Class-12-Biology-2025.pdf"
+    },
+    {
+      "type": "board",
+      "board": "West Bengal Board",
+      "board_code": "WBCHSE",
+      "class": "Class 12",
+      "subject": "History",
+      "year": 2020,
+      "filepath": "question-papers\\boards\\West-Bengal-Board\\Class-12\\History\\2020\\WBCHSE-Class-12-History-2020.pdf"
+    },
+    {
+      "type": "board",
+      "board": "West Bengal Board",
+      "board_code": "WBCHSE",
+      "class": "Class 12",
+      "subject": "History",
+      "year": 2021,
+      "filepath": "question-papers\\boards\\West-Bengal-Board\\Class-12\\History\\2021\\WBCHSE-Class-12-History-2021.pdf"
+    },
+    {
+      "type": "board",
+      "board": "West Bengal Board",
+      "board_code": "WBCHSE",
+      "class": "Class 12",
+      "subject": "History",
+      "year": 2022,
+      "filepath": "question-papers\\boards\\West-Bengal-Board\\Class-12\\History\\2022\\WBCHSE-Class-12-History-2022.pdf"
+    },
+    {
+      "type": "board",
+      "board": "West Bengal Board",
+      "board_code": "WBCHSE",
+      "class": "Class 12",
+      "subject": "History",
+      "year": 2023,
+      "filepath": "question-papers\\boards\\West-Bengal-Board\\Class-12\\History\\2023\\WBCHSE-Class-12-History-2023.pdf"
+    },
+    {
+      "type": "board",
+      "board": "West Bengal Board",
+      "board_code": "WBCHSE",
+      "class": "Class 12",
+      "subject": "History",
+      "year": 2024,
+      "filepath": "question-papers\\boards\\West-Bengal-Board\\Class-12\\History\\2024\\WBCHSE-Class-12-History-2024.pdf"
+    },
+    {
+      "type": "board",
+      "board": "West Bengal Board",
+      "board_code": "WBCHSE",
+      "class": "Class 12",
+      "subject": "History",
+      "year": 2025,
+      "filepath": "question-papers\\boards\\West-Bengal-Board\\Class-12\\History\\2025\\WBCHSE-Class-12-History-2025.pdf"
+    },
+    {
+      "type": "board",
+      "board": "West Bengal Board",
+      "board_code": "WBCHSE",
+      "class": "Class 12",
+      "subject": "Geography",
+      "year": 2020,
+      "filepath": "question-papers\\boards\\West-Bengal-Board\\Class-12\\Geography\\2020\\WBCHSE-Class-12-Geography-2020.pdf"
+    },
+    {
+      "type": "board",
+      "board": "West Bengal Board",
+      "board_code": "WBCHSE",
+      "class": "Class 12",
+      "subject": "Geography",
+      "year": 2021,
+      "filepath": "question-papers\\boards\\West-Bengal-Board\\Class-12\\Geography\\2021\\WBCHSE-Class-12-Geography-2021.pdf"
+    },
+    {
+      "type": "board",
+      "board": "West Bengal Board",
+      "board_code": "WBCHSE",
+      "class": "Class 12",
+      "subject": "Geography",
+      "year": 2022,
+      "filepath": "question-papers\\boards\\West-Bengal-Board\\Class-12\\Geography\\2022\\WBCHSE-Class-12-Geography-2022.pdf"
+    },
+    {
+      "type": "board",
+      "board": "West Bengal Board",
+      "board_code": "WBCHSE",
+      "class": "Class 12",
+      "subject": "Geography",
+      "year": 2023,
+      "filepath": "question-papers\\boards\\West-Bengal-Board\\Class-12\\Geography\\2023\\WBCHSE-Class-12-Geography-2023.pdf"
+    },
+    {
+      "type": "board",
+      "board": "West Bengal Board",
+      "board_code": "WBCHSE",
+      "class": "Class 12",
+      "subject": "Geography",
+      "year": 2024,
+      "filepath": "question-papers\\boards\\West-Bengal-Board\\Class-12\\Geography\\2024\\WBCHSE-Class-12-Geography-2024.pdf"
+    },
+    {
+      "type": "board",
+      "board": "West Bengal Board",
+      "board_code": "WBCHSE",
+      "class": "Class 12",
+      "subject": "Geography",
+      "year": 2025,
+      "filepath": "question-papers\\boards\\West-Bengal-Board\\Class-12\\Geography\\2025\\WBCHSE-Class-12-Geography-2025.pdf"
+    },
+    {
+      "type": "board",
+      "board": "CBSE",
+      "board_code": "CBSE",
+      "class": "Class 10",
+      "subject": "English",
+      "year": 2020,
+      "filepath": "question-papers\\boards\\CBSE\\Class-10\\English\\2020\\CBSE-Class-10-English-2020.pdf"
+    },
+    {
+      "type": "board",
+      "board": "CBSE",
+      "board_code": "CBSE",
+      "class": "Class 10",
+      "subject": "English",
+      "year": 2021,
+      "filepath": "question-papers\\boards\\CBSE\\Class-10\\English\\2021\\CBSE-Class-10-English-2021.pdf"
+    },
+    {
+      "type": "board",
+      "board": "CBSE",
+      "board_code": "CBSE",
+      "class": "Class 10",
+      "subject": "English",
+      "year": 2022,
+      "filepath": "question-papers\\boards\\CBSE\\Class-10\\English\\2022\\CBSE-Class-10-English-2022.pdf"
+    },
+    {
+      "type": "board",
+      "board": "CBSE",
+      "board_code": "CBSE",
+      "class": "Class 10",
+      "subject": "English",
+      "year": 2023,
+      "filepath": "question-papers\\boards\\CBSE\\Class-10\\English\\2023\\CBSE-Class-10-English-2023.pdf"
+    },
+    {
+      "type": "board",
+      "board": "CBSE",
+      "board_code": "CBSE",
+      "class": "Class 10",
+      "subject": "English",
+      "year": 2024,
+      "filepath": "question-papers\\boards\\CBSE\\Class-10\\English\\2024\\CBSE-Class-10-English-2024.pdf"
+    },
+    {
+      "type": "board",
+      "board": "CBSE",
+      "board_code": "CBSE",
+      "class": "Class 10",
+      "subject": "English",
+      "year": 2025,
+      "filepath": "question-papers\\boards\\CBSE\\Class-10\\English\\2025\\CBSE-Class-10-English-2025.pdf"
+    },
+    {
+      "type": "board",
+      "board": "CBSE",
+      "board_code": "CBSE",
+      "class": "Class 10",
+      "subject": "Mathematics",
+      "year": 2020,
+      "filepath": "question-papers\\boards\\CBSE\\Class-10\\Mathematics\\2020\\CBSE-Class-10-Mathematics-2020.pdf"
+    },
+    {
+      "type": "board",
+      "board": "CBSE",
+      "board_code": "CBSE",
+      "class": "Class 10",
+      "subject": "Mathematics",
+      "year": 2021,
+      "filepath": "question-papers\\boards\\CBSE\\Class-10\\Mathematics\\2021\\CBSE-Class-10-Mathematics-2021.pdf"
+    },
+    {
+      "type": "board",
+      "board": "CBSE",
+      "board_code": "CBSE",
+      "class": "Class 10",
+      "subject": "Mathematics",
+      "year": 2022,
+      "filepath": "question-papers\\boards\\CBSE\\Class-10\\Mathematics\\2022\\CBSE-Class-10-Mathematics-2022.pdf"
+    },
+    {
+      "type": "board",
+      "board": "CBSE",
+      "board_code": "CBSE",
+      "class": "Class 10",
+      "subject": "Mathematics",
+      "year": 2023,
+      "filepath": "question-papers\\boards\\CBSE\\Class-10\\Mathematics\\2023\\CBSE-Class-10-Mathematics-2023.pdf"
+    },
+    {
+      "type": "board",
+      "board": "CBSE",
+      "board_code": "CBSE",
+      "class": "Class 10",
+      "subject": "Mathematics",
+      "year": 2024,
+      "filepath": "question-papers\\boards\\CBSE\\Class-10\\Mathematics\\2024\\CBSE-Class-10-Mathematics-2024.pdf"
+    },
+    {
+      "type": "board",
+      "board": "CBSE",
+      "board_code": "CBSE",
+      "class": "Class 10",
+      "subject": "Mathematics",
+      "year": 2025,
+      "filepath": "question-papers\\boards\\CBSE\\Class-10\\Mathematics\\2025\\CBSE-Class-10-Mathematics-2025.pdf"
+    },
+    {
+      "type": "board",
+      "board": "CBSE",
+      "board_code": "CBSE",
+      "class": "Class 10",
+      "subject": "Science",
+      "year": 2020,
+      "filepath": "question-papers\\boards\\CBSE\\Class-10\\Science\\2020\\CBSE-Class-10-Science-2020.pdf"
+    },
+    {
+      "type": "board",
+      "board": "CBSE",
+      "board_code": "CBSE",
+      "class": "Class 10",
+      "subject": "Science",
+      "year": 2021,
+      "filepath": "question-papers\\boards\\CBSE\\Class-10\\Science\\2021\\CBSE-Class-10-Science-2021.pdf"
+    },
+    {
+      "type": "board",
+      "board": "CBSE",
+      "board_code": "CBSE",
+      "class": "Class 10",
+      "subject": "Science",
+      "year": 2022,
+      "filepath": "question-papers\\boards\\CBSE\\Class-10\\Science\\2022\\CBSE-Class-10-Science-2022.pdf"
+    },
+    {
+      "type": "board",
+      "board": "CBSE",
+      "board_code": "CBSE",
+      "class": "Class 10",
+      "subject": "Science",
+      "year": 2023,
+      "filepath": "question-papers\\boards\\CBSE\\Class-10\\Science\\2023\\CBSE-Class-10-Science-2023.pdf"
+    },
+    {
+      "type": "board",
+      "board": "CBSE",
+      "board_code": "CBSE",
+      "class": "Class 10",
+      "subject": "Science",
+      "year": 2024,
+      "filepath": "question-papers\\boards\\CBSE\\Class-10\\Science\\2024\\CBSE-Class-10-Science-2024.pdf"
+    },
+    {
+      "type": "board",
+      "board": "CBSE",
+      "board_code": "CBSE",
+      "class": "Class 10",
+      "subject": "Science",
+      "year": 2025,
+      "filepath": "question-papers\\boards\\CBSE\\Class-10\\Science\\2025\\CBSE-Class-10-Science-2025.pdf"
+    },
+    {
+      "type": "board",
+      "board": "CBSE",
+      "board_code": "CBSE",
+      "class": "Class 10",
+      "subject": "Social Science",
+      "year": 2020,
+      "filepath": "question-papers\\boards\\CBSE\\Class-10\\Social-Science\\2020\\CBSE-Class-10-Social-Science-2020.pdf"
+    },
+    {
+      "type": "board",
+      "board": "CBSE",
+      "board_code": "CBSE",
+      "class": "Class 10",
+      "subject": "Social Science",
+      "year": 2021,
+      "filepath": "question-papers\\boards\\CBSE\\Class-10\\Social-Science\\2021\\CBSE-Class-10-Social-Science-2021.pdf"
+    },
+    {
+      "type": "board",
+      "board": "CBSE",
+      "board_code": "CBSE",
+      "class": "Class 10",
+      "subject": "Social Science",
+      "year": 2022,
+      "filepath": "question-papers\\boards\\CBSE\\Class-10\\Social-Science\\2022\\CBSE-Class-10-Social-Science-2022.pdf"
+    },
+    {
+      "type": "board",
+      "board": "CBSE",
+      "board_code": "CBSE",
+      "class": "Class 10",
+      "subject": "Social Science",
+      "year": 2023,
+      "filepath": "question-papers\\boards\\CBSE\\Class-10\\Social-Science\\2023\\CBSE-Class-10-Social-Science-2023.pdf"
+    },
+    {
+      "type": "board",
+      "board": "CBSE",
+      "board_code": "CBSE",
+      "class": "Class 10",
+      "subject": "Social Science",
+      "year": 2024,
+      "filepath": "question-papers\\boards\\CBSE\\Class-10\\Social-Science\\2024\\CBSE-Class-10-Social-Science-2024.pdf"
+    },
+    {
+      "type": "board",
+      "board": "CBSE",
+      "board_code": "CBSE",
+      "class": "Class 10",
+      "subject": "Social Science",
+      "year": 2025,
+      "filepath": "question-papers\\boards\\CBSE\\Class-10\\Social-Science\\2025\\CBSE-Class-10-Social-Science-2025.pdf"
+    },
+    {
+      "type": "board",
+      "board": "CBSE",
+      "board_code": "CBSE",
+      "class": "Class 12",
+      "subject": "English",
+      "year": 2020,
+      "filepath": "question-papers\\boards\\CBSE\\Class-12\\English\\2020\\CBSE-Class-12-English-2020.pdf"
+    },
+    {
+      "type": "board",
+      "board": "CBSE",
+      "board_code": "CBSE",
+      "class": "Class 12",
+      "subject": "English",
+      "year": 2021,
+      "filepath": "question-papers\\boards\\CBSE\\Class-12\\English\\2021\\CBSE-Class-12-English-2021.pdf"
+    },
+    {
+      "type": "board",
+      "board": "CBSE",
+      "board_code": "CBSE",
+      "class": "Class 12",
+      "subject": "English",
+      "year": 2022,
+      "filepath": "question-papers\\boards\\CBSE\\Class-12\\English\\2022\\CBSE-Class-12-English-2022.pdf"
+    },
+    {
+      "type": "board",
+      "board": "CBSE",
+      "board_code": "CBSE",
+      "class": "Class 12",
+      "subject": "English",
+      "year": 2023,
+      "filepath": "question-papers\\boards\\CBSE\\Class-12\\English\\2023\\CBSE-Class-12-English-2023.pdf"
+    },
+    {
+      "type": "board",
+      "board": "CBSE",
+      "board_code": "CBSE",
+      "class": "Class 12",
+      "subject": "English",
+      "year": 2024,
+      "filepath": "question-papers\\boards\\CBSE\\Class-12\\English\\2024\\CBSE-Class-12-English-2024.pdf"
+    },
+    {
+      "type": "board",
+      "board": "CBSE",
+      "board_code": "CBSE",
+      "class": "Class 12",
+      "subject": "English",
+      "year": 2025,
+      "filepath": "question-papers\\boards\\CBSE\\Class-12\\English\\2025\\CBSE-Class-12-English-2025.pdf"
+    },
+    {
+      "type": "board",
+      "board": "CBSE",
+      "board_code": "CBSE",
+      "class": "Class 12",
+      "subject": "Mathematics",
+      "year": 2020,
+      "filepath": "question-papers\\boards\\CBSE\\Class-12\\Mathematics\\2020\\CBSE-Class-12-Mathematics-2020.pdf"
+    },
+    {
+      "type": "board",
+      "board": "CBSE",
+      "board_code": "CBSE",
+      "class": "Class 12",
+      "subject": "Mathematics",
+      "year": 2021,
+      "filepath": "question-papers\\boards\\CBSE\\Class-12\\Mathematics\\2021\\CBSE-Class-12-Mathematics-2021.pdf"
+    },
+    {
+      "type": "board",
+      "board": "CBSE",
+      "board_code": "CBSE",
+      "class": "Class 12",
+      "subject": "Mathematics",
+      "year": 2022,
+      "filepath": "question-papers\\boards\\CBSE\\Class-12\\Mathematics\\2022\\CBSE-Class-12-Mathematics-2022.pdf"
+    },
+    {
+      "type": "board",
+      "board": "CBSE",
+      "board_code": "CBSE",
+      "class": "Class 12",
+      "subject": "Mathematics",
+      "year": 2023,
+      "filepath": "question-papers\\boards\\CBSE\\Class-12\\Mathematics\\2023\\CBSE-Class-12-Mathematics-2023.pdf"
+    },
+    {
+      "type": "board",
+      "board": "CBSE",
+      "board_code": "CBSE",
+      "class": "Class 12",
+      "subject": "Mathematics",
+      "year": 2024,
+      "filepath": "question-papers\\boards\\CBSE\\Class-12\\Mathematics\\2024\\CBSE-Class-12-Mathematics-2024.pdf"
+    },
+    {
+      "type": "board",
+      "board": "CBSE",
+      "board_code": "CBSE",
+      "class": "Class 12",
+      "subject": "Mathematics",
+      "year": 2025,
+      "filepath": "question-papers\\boards\\CBSE\\Class-12\\Mathematics\\2025\\CBSE-Class-12-Mathematics-2025.pdf"
+    },
+    {
+      "type": "board",
+      "board": "CBSE",
+      "board_code": "CBSE",
+      "class": "Class 12",
+      "subject": "Physics",
+      "year": 2020,
+      "filepath": "question-papers\\boards\\CBSE\\Class-12\\Physics\\2020\\CBSE-Class-12-Physics-2020.pdf"
+    },
+    {
+      "type": "board",
+      "board": "CBSE",
+      "board_code": "CBSE",
+      "class": "Class 12",
+      "subject": "Physics",
+      "year": 2021,
+      "filepath": "question-papers\\boards\\CBSE\\Class-12\\Physics\\2021\\CBSE-Class-12-Physics-2021.pdf"
+    },
+    {
+      "type": "board",
+      "board": "CBSE",
+      "board_code": "CBSE",
+      "class": "Class 12",
+      "subject": "Physics",
+      "year": 2022,
+      "filepath": "question-papers\\boards\\CBSE\\Class-12\\Physics\\2022\\CBSE-Class-12-Physics-2022.pdf"
+    },
+    {
+      "type": "board",
+      "board": "CBSE",
+      "board_code": "CBSE",
+      "class": "Class 12",
+      "subject": "Physics",
+      "year": 2023,
+      "filepath": "question-papers\\boards\\CBSE\\Class-12\\Physics\\2023\\CBSE-Class-12-Physics-2023.pdf"
+    },
+    {
+      "type": "board",
+      "board": "CBSE",
+      "board_code": "CBSE",
+      "class": "Class 12",
+      "subject": "Physics",
+      "year": 2024,
+      "filepath": "question-papers\\boards\\CBSE\\Class-12\\Physics\\2024\\CBSE-Class-12-Physics-2024.pdf"
+    },
+    {
+      "type": "board",
+      "board": "CBSE",
+      "board_code": "CBSE",
+      "class": "Class 12",
+      "subject": "Physics",
+      "year": 2025,
+      "filepath": "question-papers\\boards\\CBSE\\Class-12\\Physics\\2025\\CBSE-Class-12-Physics-2025.pdf"
+    },
+    {
+      "type": "board",
+      "board": "CBSE",
+      "board_code": "CBSE",
+      "class": "Class 12",
+      "subject": "Chemistry",
+      "year": 2020,
+      "filepath": "question-papers\\boards\\CBSE\\Class-12\\Chemistry\\2020\\CBSE-Class-12-Chemistry-2020.pdf"
+    },
+    {
+      "type": "board",
+      "board": "CBSE",
+      "board_code": "CBSE",
+      "class": "Class 12",
+      "subject": "Chemistry",
+      "year": 2021,
+      "filepath": "question-papers\\boards\\CBSE\\Class-12\\Chemistry\\2021\\CBSE-Class-12-Chemistry-2021.pdf"
+    },
+    {
+      "type": "board",
+      "board": "CBSE",
+      "board_code": "CBSE",
+      "class": "Class 12",
+      "subject": "Chemistry",
+      "year": 2022,
+      "filepath": "question-papers\\boards\\CBSE\\Class-12\\Chemistry\\2022\\CBSE-Class-12-Chemistry-2022.pdf"
+    },
+    {
+      "type": "board",
+      "board": "CBSE",
+      "board_code": "CBSE",
+      "class": "Class 12",
+      "subject": "Chemistry",
+      "year": 2023,
+      "filepath": "question-papers\\boards\\CBSE\\Class-12\\Chemistry\\2023\\CBSE-Class-12-Chemistry-2023.pdf"
+    },
+    {
+      "type": "board",
+      "board": "CBSE",
+      "board_code": "CBSE",
+      "class": "Class 12",
+      "subject": "Chemistry",
+      "year": 2024,
+      "filepath": "question-papers\\boards\\CBSE\\Class-12\\Chemistry\\2024\\CBSE-Class-12-Chemistry-2024.pdf"
+    },
+    {
+      "type": "board",
+      "board": "CBSE",
+      "board_code": "CBSE",
+      "class": "Class 12",
+      "subject": "Chemistry",
+      "year": 2025,
+      "filepath": "question-papers\\boards\\CBSE\\Class-12\\Chemistry\\2025\\CBSE-Class-12-Chemistry-2025.pdf"
+    },
+    {
+      "type": "board",
+      "board": "CBSE",
+      "board_code": "CBSE",
+      "class": "Class 12",
+      "subject": "Biology",
+      "year": 2020,
+      "filepath": "question-papers\\boards\\CBSE\\Class-12\\Biology\\2020\\CBSE-Class-12-Biology-2020.pdf"
+    },
+    {
+      "type": "board",
+      "board": "CBSE",
+      "board_code": "CBSE",
+      "class": "Class 12",
+      "subject": "Biology",
+      "year": 2021,
+      "filepath": "question-papers\\boards\\CBSE\\Class-12\\Biology\\2021\\CBSE-Class-12-Biology-2021.pdf"
+    },
+    {
+      "type": "board",
+      "board": "CBSE",
+      "board_code": "CBSE",
+      "class": "Class 12",
+      "subject": "Biology",
+      "year": 2022,
+      "filepath": "question-papers\\boards\\CBSE\\Class-12\\Biology\\2022\\CBSE-Class-12-Biology-2022.pdf"
+    },
+    {
+      "type": "board",
+      "board": "CBSE",
+      "board_code": "CBSE",
+      "class": "Class 12",
+      "subject": "Biology",
+      "year": 2023,
+      "filepath": "question-papers\\boards\\CBSE\\Class-12\\Biology\\2023\\CBSE-Class-12-Biology-2023.pdf"
+    },
+    {
+      "type": "board",
+      "board": "CBSE",
+      "board_code": "CBSE",
+      "class": "Class 12",
+      "subject": "Biology",
+      "year": 2024,
+      "filepath": "question-papers\\boards\\CBSE\\Class-12\\Biology\\2024\\CBSE-Class-12-Biology-2024.pdf"
+    },
+    {
+      "type": "board",
+      "board": "CBSE",
+      "board_code": "CBSE",
+      "class": "Class 12",
+      "subject": "Biology",
+      "year": 2025,
+      "filepath": "question-papers\\boards\\CBSE\\Class-12\\Biology\\2025\\CBSE-Class-12-Biology-2025.pdf"
+    },
+    {
+      "type": "competitive",
+      "exam": "JEE Main",
+      "subject": "Mathematics",
+      "year": 2020,
+      "filepath": "question-papers\\competitive\\JEE-Main\\Mathematics\\2020\\JEE-Main-Mathematics-2020.pdf"
+    },
+    {
+      "type": "competitive",
+      "exam": "JEE Main",
+      "subject": "Mathematics",
+      "year": 2021,
+      "filepath": "question-papers\\competitive\\JEE-Main\\Mathematics\\2021\\JEE-Main-Mathematics-2021.pdf"
+    },
+    {
+      "type": "competitive",
+      "exam": "JEE Main",
+      "subject": "Mathematics",
+      "year": 2022,
+      "filepath": "question-papers\\competitive\\JEE-Main\\Mathematics\\2022\\JEE-Main-Mathematics-2022.pdf"
+    },
+    {
+      "type": "competitive",
+      "exam": "JEE Main",
+      "subject": "Mathematics",
+      "year": 2023,
+      "filepath": "question-papers\\competitive\\JEE-Main\\Mathematics\\2023\\JEE-Main-Mathematics-2023.pdf"
+    },
+    {
+      "type": "competitive",
+      "exam": "JEE Main",
+      "subject": "Mathematics",
+      "year": 2024,
+      "filepath": "question-papers\\competitive\\JEE-Main\\Mathematics\\2024\\JEE-Main-Mathematics-2024.pdf"
+    },
+    {
+      "type": "competitive",
+      "exam": "JEE Main",
+      "subject": "Mathematics",
+      "year": 2025,
+      "filepath": "question-papers\\competitive\\JEE-Main\\Mathematics\\2025\\JEE-Main-Mathematics-2025.pdf"
+    },
+    {
+      "type": "competitive",
+      "exam": "JEE Main",
+      "subject": "Physics",
+      "year": 2020,
+      "filepath": "question-papers\\competitive\\JEE-Main\\Physics\\2020\\JEE-Main-Physics-2020.pdf"
+    },
+    {
+      "type": "competitive",
+      "exam": "JEE Main",
+      "subject": "Physics",
+      "year": 2021,
+      "filepath": "question-papers\\competitive\\JEE-Main\\Physics\\2021\\JEE-Main-Physics-2021.pdf"
+    },
+    {
+      "type": "competitive",
+      "exam": "JEE Main",
+      "subject": "Physics",
+      "year": 2022,
+      "filepath": "question-papers\\competitive\\JEE-Main\\Physics\\2022\\JEE-Main-Physics-2022.pdf"
+    },
+    {
+      "type": "competitive",
+      "exam": "JEE Main",
+      "subject": "Physics",
+      "year": 2023,
+      "filepath": "question-papers\\competitive\\JEE-Main\\Physics\\2023\\JEE-Main-Physics-2023.pdf"
+    },
+    {
+      "type": "competitive",
+      "exam": "JEE Main",
+      "subject": "Physics",
+      "year": 2024,
+      "filepath": "question-papers\\competitive\\JEE-Main\\Physics\\2024\\JEE-Main-Physics-2024.pdf"
+    },
+    {
+      "type": "competitive",
+      "exam": "JEE Main",
+      "subject": "Physics",
+      "year": 2025,
+      "filepath": "question-papers\\competitive\\JEE-Main\\Physics\\2025\\JEE-Main-Physics-2025.pdf"
+    },
+    {
+      "type": "competitive",
+      "exam": "JEE Main",
+      "subject": "Chemistry",
+      "year": 2020,
+      "filepath": "question-papers\\competitive\\JEE-Main\\Chemistry\\2020\\JEE-Main-Chemistry-2020.pdf"
+    },
+    {
+      "type": "competitive",
+      "exam": "JEE Main",
+      "subject": "Chemistry",
+      "year": 2021,
+      "filepath": "question-papers\\competitive\\JEE-Main\\Chemistry\\2021\\JEE-Main-Chemistry-2021.pdf"
+    },
+    {
+      "type": "competitive",
+      "exam": "JEE Main",
+      "subject": "Chemistry",
+      "year": 2022,
+      "filepath": "question-papers\\competitive\\JEE-Main\\Chemistry\\2022\\JEE-Main-Chemistry-2022.pdf"
+    },
+    {
+      "type": "competitive",
+      "exam": "JEE Main",
+      "subject": "Chemistry",
+      "year": 2023,
+      "filepath": "question-papers\\competitive\\JEE-Main\\Chemistry\\2023\\JEE-Main-Chemistry-2023.pdf"
+    },
+    {
+      "type": "competitive",
+      "exam": "JEE Main",
+      "subject": "Chemistry",
+      "year": 2024,
+      "filepath": "question-papers\\competitive\\JEE-Main\\Chemistry\\2024\\JEE-Main-Chemistry-2024.pdf"
+    },
+    {
+      "type": "competitive",
+      "exam": "JEE Main",
+      "subject": "Chemistry",
+      "year": 2025,
+      "filepath": "question-papers\\competitive\\JEE-Main\\Chemistry\\2025\\JEE-Main-Chemistry-2025.pdf"
+    },
+    {
+      "type": "competitive",
+      "exam": "JEE Advanced",
+      "subject": "Mathematics",
+      "year": 2020,
+      "filepath": "question-papers\\competitive\\JEE-Advanced\\Mathematics\\2020\\JEE-Advanced-Mathematics-2020.pdf"
+    },
+    {
+      "type": "competitive",
+      "exam": "JEE Advanced",
+      "subject": "Mathematics",
+      "year": 2021,
+      "filepath": "question-papers\\competitive\\JEE-Advanced\\Mathematics\\2021\\JEE-Advanced-Mathematics-2021.pdf"
+    },
+    {
+      "type": "competitive",
+      "exam": "JEE Advanced",
+      "subject": "Mathematics",
+      "year": 2022,
+      "filepath": "question-papers\\competitive\\JEE-Advanced\\Mathematics\\2022\\JEE-Advanced-Mathematics-2022.pdf"
+    },
+    {
+      "type": "competitive",
+      "exam": "JEE Advanced",
+      "subject": "Mathematics",
+      "year": 2023,
+      "filepath": "question-papers\\competitive\\JEE-Advanced\\Mathematics\\2023\\JEE-Advanced-Mathematics-2023.pdf"
+    },
+    {
+      "type": "competitive",
+      "exam": "JEE Advanced",
+      "subject": "Mathematics",
+      "year": 2024,
+      "filepath": "question-papers\\competitive\\JEE-Advanced\\Mathematics\\2024\\JEE-Advanced-Mathematics-2024.pdf"
+    },
+    {
+      "type": "competitive",
+      "exam": "JEE Advanced",
+      "subject": "Mathematics",
+      "year": 2025,
+      "filepath": "question-papers\\competitive\\JEE-Advanced\\Mathematics\\2025\\JEE-Advanced-Mathematics-2025.pdf"
+    },
+    {
+      "type": "competitive",
+      "exam": "JEE Advanced",
+      "subject": "Physics",
+      "year": 2020,
+      "filepath": "question-papers\\competitive\\JEE-Advanced\\Physics\\2020\\JEE-Advanced-Physics-2020.pdf"
+    },
+    {
+      "type": "competitive",
+      "exam": "JEE Advanced",
+      "subject": "Physics",
+      "year": 2021,
+      "filepath": "question-papers\\competitive\\JEE-Advanced\\Physics\\2021\\JEE-Advanced-Physics-2021.pdf"
+    },
+    {
+      "type": "competitive",
+      "exam": "JEE Advanced",
+      "subject": "Physics",
+      "year": 2022,
+      "filepath": "question-papers\\competitive\\JEE-Advanced\\Physics\\2022\\JEE-Advanced-Physics-2022.pdf"
+    },
+    {
+      "type": "competitive",
+      "exam": "JEE Advanced",
+      "subject": "Physics",
+      "year": 2023,
+      "filepath": "question-papers\\competitive\\JEE-Advanced\\Physics\\2023\\JEE-Advanced-Physics-2023.pdf"
+    },
+    {
+      "type": "competitive",
+      "exam": "JEE Advanced",
+      "subject": "Physics",
+      "year": 2024,
+      "filepath": "question-papers\\competitive\\JEE-Advanced\\Physics\\2024\\JEE-Advanced-Physics-2024.pdf"
+    },
+    {
+      "type": "competitive",
+      "exam": "JEE Advanced",
+      "subject": "Physics",
+      "year": 2025,
+      "filepath": "question-papers\\competitive\\JEE-Advanced\\Physics\\2025\\JEE-Advanced-Physics-2025.pdf"
+    },
+    {
+      "type": "competitive",
+      "exam": "JEE Advanced",
+      "subject": "Chemistry",
+      "year": 2020,
+      "filepath": "question-papers\\competitive\\JEE-Advanced\\Chemistry\\2020\\JEE-Advanced-Chemistry-2020.pdf"
+    },
+    {
+      "type": "competitive",
+      "exam": "JEE Advanced",
+      "subject": "Chemistry",
+      "year": 2021,
+      "filepath": "question-papers\\competitive\\JEE-Advanced\\Chemistry\\2021\\JEE-Advanced-Chemistry-2021.pdf"
+    },
+    {
+      "type": "competitive",
+      "exam": "JEE Advanced",
+      "subject": "Chemistry",
+      "year": 2022,
+      "filepath": "question-papers\\competitive\\JEE-Advanced\\Chemistry\\2022\\JEE-Advanced-Chemistry-2022.pdf"
+    },
+    {
+      "type": "competitive",
+      "exam": "JEE Advanced",
+      "subject": "Chemistry",
+      "year": 2023,
+      "filepath": "question-papers\\competitive\\JEE-Advanced\\Chemistry\\2023\\JEE-Advanced-Chemistry-2023.pdf"
+    },
+    {
+      "type": "competitive",
+      "exam": "JEE Advanced",
+      "subject": "Chemistry",
+      "year": 2024,
+      "filepath": "question-papers\\competitive\\JEE-Advanced\\Chemistry\\2024\\JEE-Advanced-Chemistry-2024.pdf"
+    },
+    {
+      "type": "competitive",
+      "exam": "JEE Advanced",
+      "subject": "Chemistry",
+      "year": 2025,
+      "filepath": "question-papers\\competitive\\JEE-Advanced\\Chemistry\\2025\\JEE-Advanced-Chemistry-2025.pdf"
+    },
+    {
+      "type": "competitive",
+      "exam": "NIT",
+      "subject": "Mathematics",
+      "year": 2020,
+      "filepath": "question-papers\\competitive\\NIT\\Mathematics\\2020\\NIT-Mathematics-2020.pdf"
+    },
+    {
+      "type": "competitive",
+      "exam": "NIT",
+      "subject": "Mathematics",
+      "year": 2021,
+      "filepath": "question-papers\\competitive\\NIT\\Mathematics\\2021\\NIT-Mathematics-2021.pdf"
+    },
+    {
+      "type": "competitive",
+      "exam": "NIT",
+      "subject": "Mathematics",
+      "year": 2022,
+      "filepath": "question-papers\\competitive\\NIT\\Mathematics\\2022\\NIT-Mathematics-2022.pdf"
+    },
+    {
+      "type": "competitive",
+      "exam": "NIT",
+      "subject": "Mathematics",
+      "year": 2023,
+      "filepath": "question-papers\\competitive\\NIT\\Mathematics\\2023\\NIT-Mathematics-2023.pdf"
+    },
+    {
+      "type": "competitive",
+      "exam": "NIT",
+      "subject": "Mathematics",
+      "year": 2024,
+      "filepath": "question-papers\\competitive\\NIT\\Mathematics\\2024\\NIT-Mathematics-2024.pdf"
+    },
+    {
+      "type": "competitive",
+      "exam": "NIT",
+      "subject": "Mathematics",
+      "year": 2025,
+      "filepath": "question-papers\\competitive\\NIT\\Mathematics\\2025\\NIT-Mathematics-2025.pdf"
+    },
+    {
+      "type": "competitive",
+      "exam": "NIT",
+      "subject": "Physics",
+      "year": 2020,
+      "filepath": "question-papers\\competitive\\NIT\\Physics\\2020\\NIT-Physics-2020.pdf"
+    },
+    {
+      "type": "competitive",
+      "exam": "NIT",
+      "subject": "Physics",
+      "year": 2021,
+      "filepath": "question-papers\\competitive\\NIT\\Physics\\2021\\NIT-Physics-2021.pdf"
+    },
+    {
+      "type": "competitive",
+      "exam": "NIT",
+      "subject": "Physics",
+      "year": 2022,
+      "filepath": "question-papers\\competitive\\NIT\\Physics\\2022\\NIT-Physics-2022.pdf"
+    },
+    {
+      "type": "competitive",
+      "exam": "NIT",
+      "subject": "Physics",
+      "year": 2023,
+      "filepath": "question-papers\\competitive\\NIT\\Physics\\2023\\NIT-Physics-2023.pdf"
+    },
+    {
+      "type": "competitive",
+      "exam": "NIT",
+      "subject": "Physics",
+      "year": 2024,
+      "filepath": "question-papers\\competitive\\NIT\\Physics\\2024\\NIT-Physics-2024.pdf"
+    },
+    {
+      "type": "competitive",
+      "exam": "NIT",
+      "subject": "Physics",
+      "year": 2025,
+      "filepath": "question-papers\\competitive\\NIT\\Physics\\2025\\NIT-Physics-2025.pdf"
+    },
+    {
+      "type": "competitive",
+      "exam": "NIT",
+      "subject": "Chemistry",
+      "year": 2020,
+      "filepath": "question-papers\\competitive\\NIT\\Chemistry\\2020\\NIT-Chemistry-2020.pdf"
+    },
+    {
+      "type": "competitive",
+      "exam": "NIT",
+      "subject": "Chemistry",
+      "year": 2021,
+      "filepath": "question-papers\\competitive\\NIT\\Chemistry\\2021\\NIT-Chemistry-2021.pdf"
+    },
+    {
+      "type": "competitive",
+      "exam": "NIT",
+      "subject": "Chemistry",
+      "year": 2022,
+      "filepath": "question-papers\\competitive\\NIT\\Chemistry\\2022\\NIT-Chemistry-2022.pdf"
+    },
+    {
+      "type": "competitive",
+      "exam": "NIT",
+      "subject": "Chemistry",
+      "year": 2023,
+      "filepath": "question-papers\\competitive\\NIT\\Chemistry\\2023\\NIT-Chemistry-2023.pdf"
+    },
+    {
+      "type": "competitive",
+      "exam": "NIT",
+      "subject": "Chemistry",
+      "year": 2024,
+      "filepath": "question-papers\\competitive\\NIT\\Chemistry\\2024\\NIT-Chemistry-2024.pdf"
+    },
+    {
+      "type": "competitive",
+      "exam": "NIT",
+      "subject": "Chemistry",
+      "year": 2025,
+      "filepath": "question-papers\\competitive\\NIT\\Chemistry\\2025\\NIT-Chemistry-2025.pdf"
+    },
+    {
+      "type": "competitive",
+      "exam": "WBJEE",
+      "subject": "Mathematics",
+      "year": 2020,
+      "filepath": "question-papers\\competitive\\WBJEE\\Mathematics\\2020\\WBJEE-Mathematics-2020.pdf"
+    },
+    {
+      "type": "competitive",
+      "exam": "WBJEE",
+      "subject": "Mathematics",
+      "year": 2021,
+      "filepath": "question-papers\\competitive\\WBJEE\\Mathematics\\2021\\WBJEE-Mathematics-2021.pdf"
+    },
+    {
+      "type": "competitive",
+      "exam": "WBJEE",
+      "subject": "Mathematics",
+      "year": 2022,
+      "filepath": "question-papers\\competitive\\WBJEE\\Mathematics\\2022\\WBJEE-Mathematics-2022.pdf"
+    },
+    {
+      "type": "competitive",
+      "exam": "WBJEE",
+      "subject": "Mathematics",
+      "year": 2023,
+      "filepath": "question-papers\\competitive\\WBJEE\\Mathematics\\2023\\WBJEE-Mathematics-2023.pdf"
+    },
+    {
+      "type": "competitive",
+      "exam": "WBJEE",
+      "subject": "Mathematics",
+      "year": 2024,
+      "filepath": "question-papers\\competitive\\WBJEE\\Mathematics\\2024\\WBJEE-Mathematics-2024.pdf"
+    },
+    {
+      "type": "competitive",
+      "exam": "WBJEE",
+      "subject": "Mathematics",
+      "year": 2025,
+      "filepath": "question-papers\\competitive\\WBJEE\\Mathematics\\2025\\WBJEE-Mathematics-2025.pdf"
+    },
+    {
+      "type": "competitive",
+      "exam": "WBJEE",
+      "subject": "Physics",
+      "year": 2020,
+      "filepath": "question-papers\\competitive\\WBJEE\\Physics\\2020\\WBJEE-Physics-2020.pdf"
+    },
+    {
+      "type": "competitive",
+      "exam": "WBJEE",
+      "subject": "Physics",
+      "year": 2021,
+      "filepath": "question-papers\\competitive\\WBJEE\\Physics\\2021\\WBJEE-Physics-2021.pdf"
+    },
+    {
+      "type": "competitive",
+      "exam": "WBJEE",
+      "subject": "Physics",
+      "year": 2022,
+      "filepath": "question-papers\\competitive\\WBJEE\\Physics\\2022\\WBJEE-Physics-2022.pdf"
+    },
+    {
+      "type": "competitive",
+      "exam": "WBJEE",
+      "subject": "Physics",
+      "year": 2023,
+      "filepath": "question-papers\\competitive\\WBJEE\\Physics\\2023\\WBJEE-Physics-2023.pdf"
+    },
+    {
+      "type": "competitive",
+      "exam": "WBJEE",
+      "subject": "Physics",
+      "year": 2024,
+      "filepath": "question-papers\\competitive\\WBJEE\\Physics\\2024\\WBJEE-Physics-2024.pdf"
+    },
+    {
+      "type": "competitive",
+      "exam": "WBJEE",
+      "subject": "Physics",
+      "year": 2025,
+      "filepath": "question-papers\\competitive\\WBJEE\\Physics\\2025\\WBJEE-Physics-2025.pdf"
+    },
+    {
+      "type": "competitive",
+      "exam": "WBJEE",
+      "subject": "Chemistry",
+      "year": 2020,
+      "filepath": "question-papers\\competitive\\WBJEE\\Chemistry\\2020\\WBJEE-Chemistry-2020.pdf"
+    },
+    {
+      "type": "competitive",
+      "exam": "WBJEE",
+      "subject": "Chemistry",
+      "year": 2021,
+      "filepath": "question-papers\\competitive\\WBJEE\\Chemistry\\2021\\WBJEE-Chemistry-2021.pdf"
+    },
+    {
+      "type": "competitive",
+      "exam": "WBJEE",
+      "subject": "Chemistry",
+      "year": 2022,
+      "filepath": "question-papers\\competitive\\WBJEE\\Chemistry\\2022\\WBJEE-Chemistry-2022.pdf"
+    },
+    {
+      "type": "competitive",
+      "exam": "WBJEE",
+      "subject": "Chemistry",
+      "year": 2023,
+      "filepath": "question-papers\\competitive\\WBJEE\\Chemistry\\2023\\WBJEE-Chemistry-2023.pdf"
+    },
+    {
+      "type": "competitive",
+      "exam": "WBJEE",
+      "subject": "Chemistry",
+      "year": 2024,
+      "filepath": "question-papers\\competitive\\WBJEE\\Chemistry\\2024\\WBJEE-Chemistry-2024.pdf"
+    },
+    {
+      "type": "competitive",
+      "exam": "WBJEE",
+      "subject": "Chemistry",
+      "year": 2025,
+      "filepath": "question-papers\\competitive\\WBJEE\\Chemistry\\2025\\WBJEE-Chemistry-2025.pdf"
+    }
+  ],
+  "total_papers": 198
+}

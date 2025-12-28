@@ -1,0 +1,26 @@
+/*
+    Project: Question Answering Dataset
+    Description: A dataset containing context passages, questions, and answers for training QA models and reading comprehension systems.
+    Author: Molla Samser
+    Website: https://rskworld.in
+    Contact: help@rskworld.in
+    Phone: +91 93305 39277
+    
+    CSV Dataset Metadata
+    --------------------
+    File: dataset.csv
+    Format: CSV (Comma-Separated Values)
+    Encoding: UTF-8
+    
+    Columns:
+    - context: The context passage containing information
+    - question: The question to be answered
+    - answer: The correct answer to the question
+    - domain: The domain/category of the question (Science and Technology, History, Literature, General Knowledge)
+    - question_id: Unique identifier for each question
+    
+    Usage:
+    import pandas as pd
+    df = pd.read_csv('dataset.csv')
+*/
+

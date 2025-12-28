@@ -1,0 +1,161 @@
+{
+  "version": "2.0",
+  "data": [
+    {
+      "title": "Science and Technology",
+      "paragraphs": [
+        {
+          "context": "Artificial Intelligence (AI) is the simulation of human intelligence in machines that are programmed to think and learn like humans. The term may also be applied to any machine that exhibits traits associated with a human mind such as learning and problem-solving. Machine learning is a subset of AI that enables machines to learn from data without being explicitly programmed.",
+          "qas": [
+            {
+              "id": "1",
+              "question": "What is Artificial Intelligence?",
+              "answers": [
+                {
+                  "text": "the simulation of human intelligence in machines that are programmed to think and learn like humans",
+                  "answer_start": 0
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "2",
+              "question": "What is machine learning?",
+              "answers": [
+                {
+                  "text": "a subset of AI that enables machines to learn from data without being explicitly programmed",
+                  "answer_start": 195
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        },
+        {
+          "context": "The Internet of Things (IoT) refers to the network of physical objects embedded with sensors, software, and other technologies for the purpose of connecting and exchanging data with other devices and systems over the internet. These devices range from ordinary household objects to sophisticated industrial tools.",
+          "qas": [
+            {
+              "id": "3",
+              "question": "What does IoT stand for?",
+              "answers": [
+                {
+                  "text": "Internet of Things",
+                  "answer_start": 4
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "4",
+              "question": "What is the purpose of IoT devices?",
+              "answers": [
+                {
+                  "text": "connecting and exchanging data with other devices and systems over the internet",
+                  "answer_start": 120
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "History",
+      "paragraphs": [
+        {
+          "context": "The Renaissance was a period in European history marking the transition from the Middle Ages to Modernity and covering the 15th and 16th centuries. It occurred after the Crisis of the Late Middle Ages and was associated with great social change. The intellectual basis of the Renaissance was its version of humanism, derived from the concept of Roman humanitas.",
+          "qas": [
+            {
+              "id": "5",
+              "question": "When did the Renaissance occur?",
+              "answers": [
+                {
+                  "text": "the 15th and 16th centuries",
+                  "answer_start": 108
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "6",
+              "question": "What was the intellectual basis of the Renaissance?",
+              "answers": [
+                {
+                  "text": "its version of humanism, derived from the concept of Roman humanitas",
+                  "answer_start": 250
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Literature",
+      "paragraphs": [
+        {
+          "context": "Shakespeare's works have been translated into every major living language and are performed more often than those of any other playwright. His plays remain highly popular and are constantly studied, performed, and reinterpreted in diverse cultural and political contexts throughout the world.",
+          "qas": [
+            {
+              "id": "7",
+              "question": "How often are Shakespeare's plays performed?",
+              "answers": [
+                {
+                  "text": "more often than those of any other playwright",
+                  "answer_start": 99
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "General Knowledge",
+      "paragraphs": [
+        {
+          "context": "The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France. It is named after the engineer Gustave Eiffel, whose company designed and built the tower. Constructed from 1887 to 1889 as the entrance to the 1889 World's Fair, it was initially criticized by some of France's leading artists and intellectuals for its design.",
+          "qas": [
+            {
+              "id": "8",
+              "question": "Where is the Eiffel Tower located?",
+              "answers": [
+                {
+                  "text": "Champ de Mars in Paris, France",
+                  "answer_start": 49
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "9",
+              "question": "Who designed the Eiffel Tower?",
+              "answers": [
+                {
+                  "text": "Gustave Eiffel",
+                  "answer_start": 88
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "10",
+              "question": "When was the Eiffel Tower constructed?",
+              "answers": [
+                {
+                  "text": "1887 to 1889",
+                  "answer_start": 150
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+

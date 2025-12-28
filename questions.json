@@ -1,0 +1,73 @@
+{
+  "_metadata": {
+    "project": "Question Answering Dataset",
+    "description": "A dataset containing context passages, questions, and answers for training QA models and reading comprehension systems.",
+    "author": "Molla Samser",
+    "website": "https://rskworld.in",
+    "contact": "help@rskworld.in",
+    "phone": "+91 93305 39277"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "context_id": 1,
+      "question": "What is Artificial Intelligence?",
+      "domain": "Science and Technology"
+    },
+    {
+      "id": 2,
+      "context_id": 1,
+      "question": "What is machine learning?",
+      "domain": "Science and Technology"
+    },
+    {
+      "id": 3,
+      "context_id": 2,
+      "question": "What does IoT stand for?",
+      "domain": "Science and Technology"
+    },
+    {
+      "id": 4,
+      "context_id": 2,
+      "question": "What is the purpose of IoT devices?",
+      "domain": "Science and Technology"
+    },
+    {
+      "id": 5,
+      "context_id": 3,
+      "question": "When did the Renaissance occur?",
+      "domain": "History"
+    },
+    {
+      "id": 6,
+      "context_id": 3,
+      "question": "What was the intellectual basis of the Renaissance?",
+      "domain": "History"
+    },
+    {
+      "id": 7,
+      "context_id": 4,
+      "question": "How often are Shakespeare's plays performed?",
+      "domain": "Literature"
+    },
+    {
+      "id": 8,
+      "context_id": 5,
+      "question": "Where is the Eiffel Tower located?",
+      "domain": "General Knowledge"
+    },
+    {
+      "id": 9,
+      "context_id": 5,
+      "question": "Who designed the Eiffel Tower?",
+      "domain": "General Knowledge"
+    },
+    {
+      "id": 10,
+      "context_id": 5,
+      "question": "When was the Eiffel Tower constructed?",
+      "domain": "General Knowledge"
+    }
+  ]
+}
+

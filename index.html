@@ -1,0 +1,181 @@
+<!--
+    Project: Question Answering Dataset
+    Description: A dataset containing context passages, questions, and answers for training QA models and reading comprehension systems.
+    Author: Molla Samser
+    Website: https://rskworld.in
+    Contact: help@rskworld.in
+    Phone: +91 93305 39277
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Question Answering Dataset - A comprehensive dataset for training QA models and reading comprehension systems">
+    <meta name="author" content="Molla Samser">
+    <title>Question Answering Dataset - RSK World</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1><i class="fas fa-file-alt text-danger"></i> Question Answering Dataset</h1>
+            <p class="subtitle">A comprehensive dataset for training QA models and reading comprehension systems</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="intro">
+            <h2>About This Dataset</h2>
+            <p>This dataset contains context passages with corresponding questions and answers for question answering tasks. Perfect for training QA models, reading comprehension systems, and transformer-based language models.</p>
+        </section>
+
+        <section class="features">
+            <h2><i class="fas fa-star"></i> Features</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <i class="fas fa-book"></i>
+                    <h3>Context Passages</h3>
+                    <p>Rich contextual information for comprehension</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-question-circle"></i>
+                    <h3>Questions and Answers</h3>
+                    <p>Paired Q&A sets for training</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-globe"></i>
+                    <h3>Multiple Domains</h3>
+                    <p>Diverse topics and subject areas</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-code"></i>
+                    <h3>SQuAD Format</h3>
+                    <p>Standard format compatible with popular QA frameworks</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-robot"></i>
+                    <h3>Ready for Transformers</h3>
+                    <p>Optimized for BERT, GPT, and other transformer architectures</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="technologies">
+            <h2><i class="fas fa-tools"></i> Technologies</h2>
+            <div class="tech-tags">
+                <span class="tech-tag">JSON</span>
+                <span class="tech-tag">CSV</span>
+                <span class="tech-tag">Transformers</span>
+                <span class="tech-tag">BERT</span>
+                <span class="tech-tag">GPT</span>
+            </div>
+        </section>
+
+        <section class="difficulty">
+            <h2><i class="fas fa-chart-line"></i> Difficulty Level</h2>
+            <p class="difficulty-badge advanced">Advanced</p>
+        </section>
+
+        <section class="dataset-preview">
+            <h2><i class="fas fa-database"></i> Dataset Preview</h2>
+            <div id="dataset-preview" class="preview-container">
+                <p>Loading dataset preview...</p>
+            </div>
+        </section>
+
+        <section class="download">
+            <h2><i class="fas fa-download"></i> Download</h2>
+            <div class="download-buttons">
+                <a href="squad_format.json" class="btn btn-primary" download>
+                    <i class="fas fa-file-code"></i> SQuAD Format (JSON)
+                </a>
+                <a href="dataset.csv" class="btn btn-secondary" download>
+                    <i class="fas fa-file-csv"></i> CSV Format
+                </a>
+                <a href="contexts.json" class="btn btn-secondary" download>
+                    <i class="fas fa-file-alt"></i> Contexts (JSON)
+                </a>
+                <a href="questions.json" class="btn btn-secondary" download>
+                    <i class="fas fa-question-circle"></i> Questions (JSON)
+                </a>
+                <a href="answers.json" class="btn btn-secondary" download>
+                    <i class="fas fa-check-circle"></i> Answers (JSON)
+                </a>
+            </div>
+        </section>
+
+        <section class="question-papers">
+            <h2><i class="fas fa-file-pdf"></i> Question Papers</h2>
+            <p>Access question papers and answer keys for all classes, boards, and competitive exams from previous years (2020-2025). All papers are publicly available and free to download.</p>
+            <div class="download-buttons" style="margin-top: 1.5rem;">
+                <a href="question-papers/index.html" class="btn btn-primary">
+                    <i class="fas fa-book"></i> Browse All Question Papers
+                </a>
+                <a href="question-papers/boards/index.html" class="btn btn-primary">
+                    <i class="fas fa-graduation-cap"></i> Board & Competitive Exams
+                </a>
+            </div>
+            <div class="info-box" style="margin-top: 1.5rem; padding: 1rem; background: #f8f9fa; border-radius: 5px;">
+                <p><strong>Question Papers Available:</strong></p>
+                <ul style="margin-left: 2rem; margin-top: 0.5rem;">
+                    <li><strong>General Papers:</strong> Class 1 to Class 12 (Structure ready for real papers)</li>
+                    <li><strong>West Bengal Board:</strong> WBBSE (Class 10) & WBCHSE (Class 12)</li>
+                    <li><strong>CBSE Board:</strong> Class 10 & Class 12</li>
+                    <li><strong>Competitive Exams:</strong> JEE Main, JEE Advanced, NIT, WBJEE</li>
+                    <li><strong>Years:</strong> 2020, 2021, 2022, 2023, 2024, 2025</li>
+                    <li><strong>Note:</strong> Real question papers need to be downloaded from official sources. See <a href="README_REAL_PAPERS.md" target="_blank" style="color: #667eea;">README_REAL_PAPERS.md</a> for instructions.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="examples">
+            <h2><i class="fas fa-code"></i> Code Examples</h2>
+            <div class="code-examples">
+                <div class="code-block">
+                    <h3>Using with Hugging Face Transformers</h3>
+                    <pre><code>from transformers import AutoTokenizer, AutoModelForQuestionAnswering
+import json
+
+# Load the dataset
+with open('squad_format.json', 'r') as f:
+    dataset = json.load(f)
+
+# Load a pre-trained model
+tokenizer = AutoTokenizer.from_pretrained("bert-base-uncased")
+model = AutoModelForQuestionAnswering.from_pretrained("bert-base-uncased")</code></pre>
+                </div>
+                <div class="code-block">
+                    <h3>Using with CSV</h3>
+                    <pre><code>import pandas as pd
+
+# Load CSV dataset
+df = pd.read_csv('dataset.csv')
+print(df.head())</code></pre>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact">
+            <h2><i class="fas fa-envelope"></i> Contact</h2>
+            <div class="contact-info">
+                <p><strong>Author:</strong> Molla Samser</p>
+                <p><strong>Website:</strong> <a href="https://rskworld.in" target="_blank">https://rskworld.in</a></p>
+                <p><strong>Email:</strong> <a href="mailto:help@rskworld.in">help@rskworld.in</a></p>
+                <p><strong>Phone:</strong> <a href="tel:+919330539277">+91 93305 39277</a></p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 <a href="https://rskworld.in" target="_blank">RSK World</a>. All rights reserved.</p>
+            <p>Created by <a href="https://rskworld.in" target="_blank">Molla Samser</a></p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+

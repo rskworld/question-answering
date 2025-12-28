@@ -1,0 +1,73 @@
+{
+  "_metadata": {
+    "project": "Question Answering Dataset",
+    "description": "A dataset containing context passages, questions, and answers for training QA models and reading comprehension systems.",
+    "author": "Molla Samser",
+    "website": "https://rskworld.in",
+    "contact": "help@rskworld.in",
+    "phone": "+91 93305 39277"
+  },
+  "answers": [
+    {
+      "id": 1,
+      "question_id": 1,
+      "answer": "the simulation of human intelligence in machines that are programmed to think and learn like humans",
+      "answer_start": 0
+    },
+    {
+      "id": 2,
+      "question_id": 2,
+      "answer": "a subset of AI that enables machines to learn from data without being explicitly programmed",
+      "answer_start": 195
+    },
+    {
+      "id": 3,
+      "question_id": 3,
+      "answer": "Internet of Things",
+      "answer_start": 4
+    },
+    {
+      "id": 4,
+      "question_id": 4,
+      "answer": "connecting and exchanging data with other devices and systems over the internet",
+      "answer_start": 120
+    },
+    {
+      "id": 5,
+      "question_id": 5,
+      "answer": "the 15th and 16th centuries",
+      "answer_start": 108
+    },
+    {
+      "id": 6,
+      "question_id": 6,
+      "answer": "its version of humanism, derived from the concept of Roman humanitas",
+      "answer_start": 250
+    },
+    {
+      "id": 7,
+      "question_id": 7,
+      "answer": "more often than those of any other playwright",
+      "answer_start": 99
+    },
+    {
+      "id": 8,
+      "question_id": 8,
+      "answer": "Champ de Mars in Paris, France",
+      "answer_start": 49
+    },
+    {
+      "id": 9,
+      "question_id": 9,
+      "answer": "Gustave Eiffel",
+      "answer_start": 88
+    },
+    {
+      "id": 10,
+      "question_id": 10,
+      "answer": "1887 to 1889",
+      "answer_start": 150
+    }
+  ]
+}
+

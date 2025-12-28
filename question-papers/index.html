@@ -1,0 +1,287 @@
+<!--
+    Project: Question Answering Dataset - Question Papers
+    Description: Browse and download question papers for all classes and previous years
+    Author: Molla Samser
+    Website: https://rskworld.in
+    Contact: help@rskworld.in
+    Phone: +91 93305 39277
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Question Papers for All Classes - Previous Year Papers with Answer Keys">
+    <meta name="author" content="Molla Samser">
+    <title>Question Papers - All Classes | RSK World</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        .papers-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 1.5rem;
+            margin-top: 2rem;
+        }
+        .paper-card {
+            background: #fff;
+            border: 2px solid #e0e0e0;
+            border-radius: 8px;
+            padding: 1.5rem;
+            transition: all 0.3s ease;
+        }
+        .paper-card:hover {
+            border-color: #667eea;
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.2);
+            transform: translateY(-3px);
+        }
+        .paper-card h3 {
+            color: #667eea;
+            margin-bottom: 1rem;
+            font-size: 1.3rem;
+        }
+        .paper-card .year-badge {
+            display: inline-block;
+            background: #667eea;
+            color: #fff;
+            padding: 0.3rem 0.8rem;
+            border-radius: 15px;
+            font-size: 0.9rem;
+            margin-bottom: 1rem;
+        }
+        .paper-links {
+            display: flex;
+            gap: 0.5rem;
+            margin-top: 1rem;
+        }
+        .paper-links a {
+            flex: 1;
+            text-align: center;
+            padding: 0.5rem;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 0.9rem;
+        }
+        .btn-question {
+            background: #667eea;
+            color: #fff;
+        }
+        .btn-answer {
+            background: #28a745;
+            color: #fff;
+        }
+        .class-filter {
+            margin: 2rem 0;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+        }
+        .filter-btn {
+            padding: 0.5rem 1rem;
+            border: 2px solid #667eea;
+            background: #fff;
+            color: #667eea;
+            border-radius: 20px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        .filter-btn:hover, .filter-btn.active {
+            background: #667eea;
+            color: #fff;
+        }
+        .year-filter {
+            margin: 1rem 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1><i class="fas fa-file-pdf text-danger"></i> Question Papers - All Classes</h1>
+            <p class="subtitle">Previous Year Question Papers with Answer Keys</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="intro">
+            <h2>Browse Question Papers</h2>
+            <p>Download question papers and answer keys for all classes (Class 1 to Class 12) from previous years. All papers are publicly available and free to download.</p>
+        </section>
+
+        <section class="filters">
+            <h3>Filter by Class</h3>
+            <div class="class-filter">
+                <button class="filter-btn active" onclick="filterPapers('all')">All Classes</button>
+                <button class="filter-btn" onclick="filterPapers('Class 1')">Class 1</button>
+                <button class="filter-btn" onclick="filterPapers('Class 2')">Class 2</button>
+                <button class="filter-btn" onclick="filterPapers('Class 3')">Class 3</button>
+                <button class="filter-btn" onclick="filterPapers('Class 4')">Class 4</button>
+                <button class="filter-btn" onclick="filterPapers('Class 5')">Class 5</button>
+                <button class="filter-btn" onclick="filterPapers('Class 6')">Class 6</button>
+                <button class="filter-btn" onclick="filterPapers('Class 7')">Class 7</button>
+                <button class="filter-btn" onclick="filterPapers('Class 8')">Class 8</button>
+                <button class="filter-btn" onclick="filterPapers('Class 9')">Class 9</button>
+                <button class="filter-btn" onclick="filterPapers('Class 10')">Class 10</button>
+                <button class="filter-btn" onclick="filterPapers('Class 11')">Class 11</button>
+                <button class="filter-btn" onclick="filterPapers('Class 12')">Class 12</button>
+            </div>
+            <div class="year-filter">
+                <h3>Filter by Year</h3>
+                <div class="class-filter">
+                    <button class="filter-btn" onclick="filterByYear('all')">All Years</button>
+                    <button class="filter-btn" onclick="filterByYear('2025')">2025</button>
+                    <button class="filter-btn" onclick="filterByYear('2024')">2024</button>
+                    <button class="filter-btn" onclick="filterByYear('2023')">2023</button>
+                    <button class="filter-btn" onclick="filterByYear('2022')">2022</button>
+                    <button class="filter-btn" onclick="filterByYear('2021')">2021</button>
+                    <button class="filter-btn" onclick="filterByYear('2020')">2020</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="papers-section">
+            <h2><i class="fas fa-list"></i> Available Question Papers</h2>
+            <div id="papers-container" class="papers-grid">
+                <!-- Papers will be loaded here by JavaScript -->
+            </div>
+        </section>
+
+        <section class="info">
+            <h2><i class="fas fa-info-circle"></i> Information</h2>
+            <div class="info-content">
+                <p><strong>Total Classes:</strong> 12 (Class 1 to Class 12)</p>
+                <p><strong>Available Years:</strong> 2020, 2021, 2022, 2023, 2024, 2025</p>
+                <p><strong>Format:</strong> PDF (Portable Document Format)</p>
+                <p><strong>Includes:</strong> Question Papers + Answer Keys</p>
+                <p><strong>Subjects Covered:</strong> English, Mathematics, Science, Social Studies, and more</p>
+            </div>
+        </section>
+
+        <section class="contact">
+            <h2><i class="fas fa-envelope"></i> Contact</h2>
+            <div class="contact-info">
+                <p><strong>Author:</strong> Molla Samser</p>
+                <p><strong>Website:</strong> <a href="https://rskworld.in" target="_blank">https://rskworld.in</a></p>
+                <p><strong>Email:</strong> <a href="mailto:help@rskworld.in">help@rskworld.in</a></p>
+                <p><strong>Phone:</strong> <a href="tel:+919330539277">+91 93305 39277</a></p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 <a href="https://rskworld.in" target="_blank">RSK World</a>. All rights reserved.</p>
+            <p>Created by <a href="https://rskworld.in" target="_blank">Molla Samser</a></p>
+            <p><a href="../index.html">← Back to Main Dataset</a></p>
+        </div>
+    </footer>
+
+    <script>
+        // Question papers data
+        const classes = ['Class 1', 'Class 2', 'Class 3', 'Class 4', 'Class 5', 'Class 6', 
+                        'Class 7', 'Class 8', 'Class 9', 'Class 10', 'Class 11', 'Class 12'];
+        const years = [2020, 2021, 2022, 2023, 2024, 2025];
+        
+        let currentFilter = 'all';
+        let currentYearFilter = 'all';
+        
+        function generatePapers() {
+            const container = document.getElementById('papers-container');
+            container.innerHTML = '';
+            
+            classes.forEach(classLevel => {
+                if (currentFilter !== 'all' && currentFilter !== classLevel) return;
+                
+                years.forEach(year => {
+                    if (currentYearFilter !== 'all' && currentYearFilter !== year.toString()) return;
+                    
+                    const classSlug = classLevel.replace(' ', '-');
+                    const qpPath = `${classSlug}/${year}/${classSlug}-Question-Paper-${year}.pdf`;
+                    const akPath = `${classSlug}/${year}/${classSlug}-Answer-Key-${year}.pdf`;
+                    
+                    createPaperCard(container, classLevel, year, qpPath, akPath);
+                });
+            });
+        }
+        
+        function filterPapers(classLevel) {
+            currentFilter = classLevel;
+            document.querySelectorAll('.class-filter .filter-btn').forEach(btn => {
+                btn.classList.remove('active');
+            });
+            event.target.classList.add('active');
+            generatePapers();
+        }
+        
+        function filterByYear(year) {
+            currentYearFilter = year;
+            document.querySelectorAll('.year-filter .filter-btn').forEach(btn => {
+                btn.classList.remove('active');
+            });
+            event.target.classList.add('active');
+            generatePapers();
+        }
+        
+        function createPaperCard(container, classLevel, year, qpPath, akPath) {
+            const card = document.createElement('div');
+            card.className = 'paper-card';
+            card.setAttribute('data-class', classLevel);
+            card.setAttribute('data-year', year);
+            
+            const cardId = `card-${classLevel}-${year}`.replace(/\s+/g, '-');
+            
+            card.innerHTML = `
+                <h3>${classLevel}</h3>
+                <span class="year-badge">${year}</span>
+                <p>Question Paper and Answer Key for ${classLevel} - ${year}</p>
+                <div class="paper-links" id="links-${cardId}">
+                    <a href="${qpPath}" class="btn-question" target="_blank" data-path="${qpPath}">
+                        <i class="fas fa-file-pdf"></i> Question Paper
+                    </a>
+                    <a href="${akPath}" class="btn-answer" target="_blank" data-path="${akPath}">
+                        <i class="fas fa-key"></i> Answer Key
+                    </a>
+                </div>
+                <p id="error-${cardId}" style="display:none; color: #dc3545; font-size: 0.9rem; margin-top: 0.5rem; padding: 0.5rem; background: #fff3cd; border-radius: 5px;">
+                    <i class="fas fa-exclamation-triangle"></i> <strong>Files not available.</strong> Please download from official sources. See <a href="../README_REAL_PAPERS.md" target="_blank" style="color: #667eea; font-weight: bold;">download instructions</a>.
+                </p>
+            `;
+            
+            container.appendChild(card);
+            
+            // Check if files exist
+            checkFilesExist(qpPath, akPath, cardId);
+        }
+        
+        async function checkFilesExist(qpPath, akPath, cardId) {
+            try {
+                const qpResponse = await fetch(qpPath, { method: 'HEAD' });
+                const akResponse = await fetch(akPath, { method: 'HEAD' });
+                
+                if ((!qpResponse.ok || qpResponse.status === 404) && 
+                    (!akResponse.ok || akResponse.status === 404)) {
+                    // Both files don't exist
+                    const linkDiv = document.getElementById(`links-${cardId}`);
+                    const errorMsg = document.getElementById(`error-${cardId}`);
+                    if (linkDiv && errorMsg) {
+                        linkDiv.style.display = 'none';
+                        errorMsg.style.display = 'block';
+                    }
+                }
+            } catch (error) {
+                // Files don't exist
+                const linkDiv = document.getElementById(`links-${cardId}`);
+                const errorMsg = document.getElementById(`error-${cardId}`);
+                if (linkDiv && errorMsg) {
+                    linkDiv.style.display = 'none';
+                    errorMsg.style.display = 'block';
+                }
+            }
+        }
+
+        // Initialize
+        generatePapers();
+    </script>
+</body>
+</html>
+

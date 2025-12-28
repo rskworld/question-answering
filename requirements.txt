@@ -1,0 +1,15 @@
+# -*- coding: utf-8 -*-
+# Project: Question Answering Dataset
+# Description: A dataset containing context passages, questions, and answers for training QA models and reading comprehension systems.
+# Author: Molla Samser
+# Website: https://rskworld.in
+# Contact: help@rskworld.in
+# Phone: +91 93305 39277
+
+torch>=2.0.0
+transformers>=4.30.0
+datasets>=2.12.0
+pandas>=2.0.0
+numpy>=1.24.0
+reportlab>=4.0.0
+

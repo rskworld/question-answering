@@ -1,0 +1,423 @@
+<!--
+    Project: Question Answering Dataset - Board Question Papers
+    Description: Browse and download question papers for West Bengal Board, CBSE, and Competitive Exams
+    Author: Molla Samser
+    Website: https://rskworld.in
+    Contact: help@rskworld.in
+    Phone: +91 93305 39277
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Board Question Papers - West Bengal Board, CBSE, JEE, NIT, WBJEE">
+    <meta name="author" content="Molla Samser">
+    <title>Board Question Papers | RSK World</title>
+    <link rel="stylesheet" href="../../styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        .board-tabs {
+            display: flex;
+            gap: 1rem;
+            margin: 2rem 0;
+            flex-wrap: wrap;
+        }
+        .board-tab {
+            padding: 1rem 2rem;
+            background: #667eea;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1rem;
+            transition: all 0.3s ease;
+        }
+        .board-tab:hover {
+            background: #5568d3;
+            transform: translateY(-2px);
+        }
+        .board-tab.active {
+            background: #283593;
+        }
+        .board-content {
+            display: none;
+        }
+        .board-content.active {
+            display: block;
+        }
+        .papers-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 1.5rem;
+            margin-top: 2rem;
+        }
+        .paper-card {
+            background: #fff;
+            border: 2px solid #e0e0e0;
+            border-radius: 8px;
+            padding: 1.5rem;
+            transition: all 0.3s ease;
+        }
+        .paper-card:hover {
+            border-color: #667eea;
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.2);
+            transform: translateY(-3px);
+        }
+        .paper-card h3 {
+            color: #667eea;
+            margin-bottom: 0.5rem;
+        }
+        .paper-card .badge {
+            display: inline-block;
+            background: #667eea;
+            color: #fff;
+            padding: 0.3rem 0.8rem;
+            border-radius: 15px;
+            font-size: 0.9rem;
+            margin: 0.5rem 0.5rem 0.5rem 0;
+        }
+        .paper-card a {
+            display: inline-block;
+            margin-top: 1rem;
+            padding: 0.5rem 1rem;
+            background: #667eea;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: all 0.3s ease;
+        }
+        .paper-card a:hover {
+            background: #5568d3;
+        }
+        .paper-card .download-link {
+            cursor: pointer;
+        }
+        .paper-card .download-link:active {
+            transform: scale(0.98);
+        }
+        .filter-section {
+            margin: 2rem 0;
+            padding: 1.5rem;
+            background: #f8f9fa;
+            border-radius: 8px;
+        }
+        .filter-buttons {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            margin-top: 1rem;
+        }
+        .filter-btn {
+            padding: 0.5rem 1rem;
+            border: 2px solid #667eea;
+            background: #fff;
+            color: #667eea;
+            border-radius: 20px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        .filter-btn:hover, .filter-btn.active {
+            background: #667eea;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1><i class="fas fa-graduation-cap text-danger"></i> Board Question Papers</h1>
+            <p class="subtitle">West Bengal Board, CBSE, and Competitive Exams (2020-2025)</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="intro">
+            <h2>Available Board Question Papers</h2>
+            <p>Download question papers for West Bengal Board (WBBSE, WBCHSE), CBSE Board, and Competitive Exams (JEE Main, JEE Advanced, NIT, WBJEE) from 2020 to 2025.</p>
+            <div class="info-box" style="margin-top: 1rem; padding: 1.5rem; background: #fff3cd; border-left: 4px solid #ffc107; border-radius: 5px;">
+                <p style="margin: 0;"><strong><i class="fas fa-exclamation-triangle"></i> Important:</strong> Real question papers need to be downloaded from official sources and placed in the <code>real-papers</code> folder.</p>
+                <p style="margin: 0.5rem 0 0 0;">See <a href="../../README_REAL_PAPERS.md" target="_blank" style="color: #667eea; font-weight: bold;">README_REAL_PAPERS.md</a> for complete download instructions.</p>
+            </div>
+        </section>
+
+        <div class="board-tabs">
+            <button class="board-tab active" onclick="showBoard('west-bengal')">
+                <i class="fas fa-map-marker-alt"></i> West Bengal Board
+            </button>
+            <button class="board-tab" onclick="showBoard('cbse')">
+                <i class="fas fa-school"></i> CBSE Board
+            </button>
+            <button class="board-tab" onclick="showBoard('competitive')">
+                <i class="fas fa-trophy"></i> Competitive Exams
+            </button>
+        </div>
+
+        <!-- West Bengal Board -->
+        <div id="west-bengal" class="board-content active">
+            <section class="filter-section">
+                <h3>West Bengal Board Question Papers</h3>
+                <p><strong>WBBSE:</strong> Class 10 | <strong>WBCHSE:</strong> Class 12</p>
+                <div class="filter-buttons">
+                    <button class="filter-btn active" onclick="filterPapers('west-bengal', 'all')">All</button>
+                    <button class="filter-btn" onclick="filterPapers('west-bengal', 'Class-10')">Class 10</button>
+                    <button class="filter-btn" onclick="filterPapers('west-bengal', 'Class-12')">Class 12</button>
+                </div>
+            </section>
+            <div id="west-bengal-papers" class="papers-grid"></div>
+        </div>
+
+        <!-- CBSE Board -->
+        <div id="cbse" class="board-content">
+            <section class="filter-section">
+                <h3>CBSE Board Question Papers</h3>
+                <p>Class 10 and Class 12</p>
+                <div class="filter-buttons">
+                    <button class="filter-btn active" onclick="filterPapers('cbse', 'all')">All</button>
+                    <button class="filter-btn" onclick="filterPapers('cbse', 'Class-10')">Class 10</button>
+                    <button class="filter-btn" onclick="filterPapers('cbse', 'Class-12')">Class 12</button>
+                </div>
+            </section>
+            <div id="cbse-papers" class="papers-grid"></div>
+        </div>
+
+        <!-- Competitive Exams -->
+        <div id="competitive" class="board-content">
+            <section class="filter-section">
+                <h3>Competitive Exam Question Papers</h3>
+                <p>JEE Main, JEE Advanced, NIT, WBJEE</p>
+                <div class="filter-buttons">
+                    <button class="filter-btn active" onclick="filterPapers('competitive', 'all')">All Exams</button>
+                    <button class="filter-btn" onclick="filterPapers('competitive', 'JEE-Main')">JEE Main</button>
+                    <button class="filter-btn" onclick="filterPapers('competitive', 'JEE-Advanced')">JEE Advanced</button>
+                    <button class="filter-btn" onclick="filterPapers('competitive', 'NIT')">NIT</button>
+                    <button class="filter-btn" onclick="filterPapers('competitive', 'WBJEE')">WBJEE</button>
+                </div>
+            </section>
+            <div id="competitive-papers" class="papers-grid"></div>
+        </div>
+
+        <section class="info">
+            <h2><i class="fas fa-info-circle"></i> Information</h2>
+            <div class="info-content">
+                <p><strong>West Bengal Board:</strong></p>
+                <ul>
+                    <li>WBBSE (Class 10): English, Mathematics, Science, History, Geography</li>
+                    <li>WBCHSE (Class 12): English, Mathematics, Physics, Chemistry, Biology, History, Geography</li>
+                </ul>
+                <p><strong>CBSE Board:</strong></p>
+                <ul>
+                    <li>Class 10: English, Mathematics, Science, Social Science</li>
+                    <li>Class 12: English, Mathematics, Physics, Chemistry, Biology</li>
+                </ul>
+                <p><strong>Competitive Exams:</strong></p>
+                <ul>
+                    <li>JEE Main: Mathematics, Physics, Chemistry</li>
+                    <li>JEE Advanced: Mathematics, Physics, Chemistry</li>
+                    <li>NIT: Mathematics, Physics, Chemistry</li>
+                    <li>WBJEE: Mathematics, Physics, Chemistry</li>
+                </ul>
+                <p><strong>Available Years:</strong> 2020, 2021, 2022, 2023, 2024, 2025</p>
+                <p style="margin-top: 1rem; padding: 1rem; background: #fff3cd; border-left: 4px solid #ffc107; border-radius: 5px;">
+                    <strong>Important:</strong> Real question papers should be placed in the <code>real-papers</code> folder. 
+                    Download instructions are available in <a href="../../README_REAL_PAPERS.md" target="_blank" style="color: #667eea; font-weight: bold;">README_REAL_PAPERS.md</a>.
+                </p>
+            </div>
+        </section>
+
+        <section class="contact">
+            <h2><i class="fas fa-envelope"></i> Contact</h2>
+            <div class="contact-info">
+                <p><strong>Author:</strong> Molla Samser</p>
+                <p><strong>Website:</strong> <a href="https://rskworld.in" target="_blank">https://rskworld.in</a></p>
+                <p><strong>Email:</strong> <a href="mailto:help@rskworld.in">help@rskworld.in</a></p>
+                <p><strong>Phone:</strong> <a href="tel:+919330539277">+91 93305 39277</a></p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 <a href="https://rskworld.in" target="_blank">RSK World</a>. All rights reserved.</p>
+            <p>Created by <a href="https://rskworld.in" target="_blank">Molla Samser</a></p>
+            <p><a href="../index.html">← Back to Question Papers</a> | <a href="../../index.html">← Back to Main</a></p>
+        </div>
+    </footer>
+
+    <script>
+        let currentBoard = 'west-bengal';
+        let currentFilter = 'all';
+
+        // West Bengal Board papers
+        const wbPapers = {
+            'Class-10': [
+                {subject: 'English', code: 'WBBSE', years: [2020,2021,2022,2023,2024,2025]},
+                {subject: 'Mathematics', code: 'WBBSE', years: [2020,2021,2022,2023,2024,2025]},
+                {subject: 'Science', code: 'WBBSE', years: [2020,2021,2022,2023,2024,2025]},
+                {subject: 'History', code: 'WBBSE', years: [2020,2021,2022,2023,2024,2025]},
+                {subject: 'Geography', code: 'WBBSE', years: [2020,2021,2022,2023,2024,2025]}
+            ],
+            'Class-12': [
+                {subject: 'English', code: 'WBCHSE', years: [2020,2021,2022,2023,2024,2025]},
+                {subject: 'Mathematics', code: 'WBCHSE', years: [2020,2021,2022,2023,2024,2025]},
+                {subject: 'Physics', code: 'WBCHSE', years: [2020,2021,2022,2023,2024,2025]},
+                {subject: 'Chemistry', code: 'WBCHSE', years: [2020,2021,2022,2023,2024,2025]},
+                {subject: 'Biology', code: 'WBCHSE', years: [2020,2021,2022,2023,2024,2025]},
+                {subject: 'History', code: 'WBCHSE', years: [2020,2021,2022,2023,2024,2025]},
+                {subject: 'Geography', code: 'WBCHSE', years: [2020,2021,2022,2023,2024,2025]}
+            ]
+        };
+
+        // CBSE papers
+        const cbsePapers = {
+            'Class-10': [
+                {subject: 'English', code: 'CBSE', years: [2020,2021,2022,2023,2024,2025]},
+                {subject: 'Mathematics', code: 'CBSE', years: [2020,2021,2022,2023,2024,2025]},
+                {subject: 'Science', code: 'CBSE', years: [2020,2021,2022,2023,2024,2025]},
+                {subject: 'Social-Science', code: 'CBSE', years: [2020,2021,2022,2023,2024,2025]}
+            ],
+            'Class-12': [
+                {subject: 'English', code: 'CBSE', years: [2020,2021,2022,2023,2024,2025]},
+                {subject: 'Mathematics', code: 'CBSE', years: [2020,2021,2022,2023,2024,2025]},
+                {subject: 'Physics', code: 'CBSE', years: [2020,2021,2022,2023,2024,2025]},
+                {subject: 'Chemistry', code: 'CBSE', years: [2020,2021,2022,2023,2024,2025]},
+                {subject: 'Biology', code: 'CBSE', years: [2020,2021,2022,2023,2024,2025]}
+            ]
+        };
+
+        // Competitive exam papers
+        const competitivePapers = {
+            'JEE-Main': [
+                {subject: 'Mathematics', years: [2020,2021,2022,2023,2024,2025]},
+                {subject: 'Physics', years: [2020,2021,2022,2023,2024,2025]},
+                {subject: 'Chemistry', years: [2020,2021,2022,2023,2024,2025]}
+            ],
+            'JEE-Advanced': [
+                {subject: 'Mathematics', years: [2020,2021,2022,2023,2024,2025]},
+                {subject: 'Physics', years: [2020,2021,2022,2023,2024,2025]},
+                {subject: 'Chemistry', years: [2020,2021,2022,2023,2024,2025]}
+            ],
+            'NIT': [
+                {subject: 'Mathematics', years: [2020,2021,2022,2023,2024,2025]},
+                {subject: 'Physics', years: [2020,2021,2022,2023,2024,2025]},
+                {subject: 'Chemistry', years: [2020,2021,2022,2023,2024,2025]}
+            ],
+            'WBJEE': [
+                {subject: 'Mathematics', years: [2020,2021,2022,2023,2024,2025]},
+                {subject: 'Physics', years: [2020,2021,2022,2023,2024,2025]},
+                {subject: 'Chemistry', years: [2020,2021,2022,2023,2024,2025]}
+            ]
+        };
+
+        function showBoard(board) {
+            currentBoard = board;
+            document.querySelectorAll('.board-content').forEach(content => {
+                content.classList.remove('active');
+            });
+            document.querySelectorAll('.board-tab').forEach(tab => {
+                tab.classList.remove('active');
+            });
+            document.getElementById(board).classList.add('active');
+            event.target.classList.add('active');
+            filterPapers(board, 'all');
+        }
+
+        function filterPapers(board, filter) {
+            currentFilter = filter;
+            const container = document.getElementById(board + '-papers');
+            container.innerHTML = '';
+
+            if (board === 'west-bengal') {
+                const classes = filter === 'all' ? ['Class-10', 'Class-12'] : [filter];
+                classes.forEach(cls => {
+                    wbPapers[cls].forEach(paper => {
+                        paper.years.forEach(year => {
+                            // Try real-papers folder first, then fallback to boards folder
+                            const realPath = `../real-papers/boards/West-Bengal-Board/${cls}/${paper.subject}/${year}/${paper.code}-${cls.replace('-', '-')}-${paper.subject}-${year}.pdf`;
+                            const fallbackPath = `West-Bengal-Board/${cls}/${paper.subject}/${year}/${paper.code}-${cls.replace('-', '-')}-${paper.subject}-${year}.pdf`;
+                            createPaperCard(container, `${paper.code} ${cls} ${paper.subject}`, year, realPath, fallbackPath);
+                        });
+                    });
+                });
+            } else if (board === 'cbse') {
+                const classes = filter === 'all' ? ['Class-10', 'Class-12'] : [filter];
+                classes.forEach(cls => {
+                    cbsePapers[cls].forEach(paper => {
+                        paper.years.forEach(year => {
+                            const realPath = `../real-papers/boards/CBSE/${cls}/${paper.subject}/${year}/${paper.code}-${cls.replace('-', '-')}-${paper.subject}-${year}.pdf`;
+                            const fallbackPath = `CBSE/${cls}/${paper.subject}/${year}/${paper.code}-${cls.replace('-', '-')}-${paper.subject}-${year}.pdf`;
+                            createPaperCard(container, `CBSE ${cls} ${paper.subject}`, year, realPath, fallbackPath);
+                        });
+                    });
+                });
+            } else if (board === 'competitive') {
+                const exams = filter === 'all' ? Object.keys(competitivePapers) : [filter];
+                exams.forEach(exam => {
+                    competitivePapers[exam].forEach(paper => {
+                        paper.years.forEach(year => {
+                            const realPath = `../real-papers/competitive/${exam}/${paper.subject}/${year}/${exam}-${paper.subject}-${year}.pdf`;
+                            const fallbackPath = `../competitive/${exam}/${paper.subject}/${year}/${exam}-${paper.subject}-${year}.pdf`;
+                            createPaperCard(container, `${exam} ${paper.subject}`, year, realPath, fallbackPath);
+                        });
+                    });
+                });
+            }
+        }
+
+        function createPaperCard(container, title, year, realPath, fallbackPath = null) {
+            const card = document.createElement('div');
+            card.className = 'paper-card';
+            
+            // Create unique ID for error message
+            const cardId = `card-${year}-${title.replace(/[^a-zA-Z0-9]/g, '-')}`;
+            const errorId = `error-${cardId}`;
+            
+            card.innerHTML = `
+                <h3>${title}</h3>
+                <span class="badge">${year}</span>
+                <p>Question Paper for ${year}</p>
+                <div id="link-${cardId}">
+                    <a href="${realPath}" target="_blank" class="download-link" data-path="${realPath}" data-card="${cardId}">
+                        <i class="fas fa-download"></i> Download PDF
+                    </a>
+                </div>
+                <p id="${errorId}" style="display:none; color: #dc3545; font-size: 0.9rem; margin-top: 0.5rem; padding: 0.5rem; background: #fff3cd; border-radius: 5px;">
+                    <i class="fas fa-exclamation-triangle"></i> <strong>File not available.</strong><br/>
+                    Please download from official sources. See <a href="../../README_REAL_PAPERS.md" target="_blank" style="color: #667eea; font-weight: bold;">download instructions</a>.
+                </p>
+            `;
+            container.appendChild(card);
+            
+            // Check if file exists after card is added
+            checkFileExists(realPath, cardId, errorId);
+        }
+        
+        async function checkFileExists(path, cardId, errorId) {
+            try {
+                const response = await fetch(path, { method: 'HEAD' });
+                if (!response.ok || response.status === 404) {
+                    // File doesn't exist - show error message
+                    const linkDiv = document.getElementById(`link-${cardId}`);
+                    const errorMsg = document.getElementById(errorId);
+                    if (linkDiv && errorMsg) {
+                        linkDiv.style.display = 'none';
+                        errorMsg.style.display = 'block';
+                    }
+                }
+            } catch (error) {
+                // File doesn't exist or network error
+                const linkDiv = document.getElementById(`link-${cardId}`);
+                const errorMsg = document.getElementById(errorId);
+                if (linkDiv && errorMsg) {
+                    linkDiv.style.display = 'none';
+                    errorMsg.style.display = 'block';
+                }
+            }
+        }
+
+        // Initialize
+        filterPapers('west-bengal', 'all');
+    </script>
+</body>
+</html>
+

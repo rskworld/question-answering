@@ -1,0 +1,40 @@
+{
+  "_comment": "Project metadata and author information",
+  "project": {
+    "id": 23,
+    "title": "Question Answering Dataset",
+    "category": "Text Data",
+    "description": "Question answering dataset with context passages, questions, and answers for training QA models and reading comprehension systems.",
+    "full_description": "This dataset contains context passages with corresponding questions and answers for question answering tasks. Perfect for training QA models, reading comprehension systems, and transformer-based language models.",
+    "technologies": ["JSON", "CSV", "Transformers", "BERT", "GPT"],
+    "difficulty": "Advanced",
+    "source_link": "./question-answering/question-answering.zip",
+    "demo_link": "./question-answering/",
+    "features": [
+      "Context passages",
+      "Questions and answers",
+      "Multiple domains",
+      "SQuAD format",
+      "Ready for transformer models"
+    ],
+    "icon": "fas fa-file-alt",
+    "icon_color": "text-danger",
+    "project_image": "./question-answering/question-answering.png",
+    "project_image_alt": "Question Answering Dataset - rskworld.in"
+  },
+  "author": {
+    "name": "Molla Samser",
+    "website": "https://rskworld.in",
+    "email": "help@rskworld.in",
+    "phone": "+91 93305 39277"
+  },
+  "dataset": {
+    "format": "SQuAD 2.0",
+    "version": "1.0",
+    "total_contexts": 5,
+    "total_questions": 10,
+    "total_answers": 10,
+    "domains": ["Science and Technology", "History", "Literature", "General Knowledge"]
+  }
+}
+

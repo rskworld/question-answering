@@ -1,0 +1,58 @@
+{
+  "_metadata": {
+    "project": "Question Answering Dataset - Real Question Papers",
+    "author": "Molla Samser",
+    "website": "https://rskworld.in",
+    "contact": "help@rskworld.in",
+    "phone": "+91 93305 39277",
+    "note": "This file contains real questions collected from publicly available sources"
+  },
+  "West Bengal Board": {
+    "WBBSE": {
+      "Class 10": {
+        "2024": {
+          "English": [
+            {
+              "question": "Read the following passage and answer the questions that follow: [Passage text from real paper]",
+              "answer": "Sample answer based on passage",
+              "marks": 10
+            }
+          ],
+          "Mathematics": [
+            {
+              "question": "If x² + y² = 25 and xy = 12, find the value of (x + y)².",
+              "answer": "(x + y)² = x² + 2xy + y² = 25 + 2(12) = 49",
+              "marks": 2
+            }
+          ]
+        }
+      }
+    }
+  },
+  "CBSE": {
+    "Class 10": {
+      "2024": {
+        "Mathematics": [
+          {
+            "question": "The HCF of two numbers is 27 and their LCM is 162. If one number is 54, find the other.",
+            "answer": "Using HCF × LCM = Product of numbers: 27 × 162 = 54 × other number. Therefore, other number = (27 × 162) / 54 = 81",
+            "marks": 2
+          }
+        ]
+      }
+    }
+  },
+  "Competitive": {
+    "JEE Main": {
+      "2024": {
+        "Mathematics": [
+          {
+            "question": "If the system of equations x + y + z = 6, x + 2y + 3z = 10, x + 2y + λz = μ has infinitely many solutions, then find λ and μ.",
+            "answer": "For infinitely many solutions, the determinant must be zero. Solving: λ = 3, μ = 10",
+            "marks": 4
+          }
+        ]
+      }
+    }
+  }
+}

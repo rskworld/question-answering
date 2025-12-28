@@ -1,0 +1,444 @@
+{
+  "_metadata": {
+    "project": "Question Answering Dataset - Question Papers",
+    "author": "Molla Samser",
+    "website": "https://rskworld.in",
+    "contact": "help@rskworld.in",
+    "phone": "+91 93305 39277"
+  },
+  "generated_files": [
+    {
+      "class": "Class 1",
+      "year": 2020,
+      "question_paper": "question-papers\\Class-1\\2020\\Class-1-Question-Paper-2020.pdf",
+      "answer_key": "question-papers\\Class-1\\2020\\Class-1-Answer-Key-2020.pdf"
+    },
+    {
+      "class": "Class 1",
+      "year": 2021,
+      "question_paper": "question-papers\\Class-1\\2021\\Class-1-Question-Paper-2021.pdf",
+      "answer_key": "question-papers\\Class-1\\2021\\Class-1-Answer-Key-2021.pdf"
+    },
+    {
+      "class": "Class 1",
+      "year": 2022,
+      "question_paper": "question-papers\\Class-1\\2022\\Class-1-Question-Paper-2022.pdf",
+      "answer_key": "question-papers\\Class-1\\2022\\Class-1-Answer-Key-2022.pdf"
+    },
+    {
+      "class": "Class 1",
+      "year": 2023,
+      "question_paper": "question-papers\\Class-1\\2023\\Class-1-Question-Paper-2023.pdf",
+      "answer_key": "question-papers\\Class-1\\2023\\Class-1-Answer-Key-2023.pdf"
+    },
+    {
+      "class": "Class 1",
+      "year": 2024,
+      "question_paper": "question-papers\\Class-1\\2024\\Class-1-Question-Paper-2024.pdf",
+      "answer_key": "question-papers\\Class-1\\2024\\Class-1-Answer-Key-2024.pdf"
+    },
+    {
+      "class": "Class 1",
+      "year": 2025,
+      "question_paper": "question-papers\\Class-1\\2025\\Class-1-Question-Paper-2025.pdf",
+      "answer_key": "question-papers\\Class-1\\2025\\Class-1-Answer-Key-2025.pdf"
+    },
+    {
+      "class": "Class 2",
+      "year": 2020,
+      "question_paper": "question-papers\\Class-2\\2020\\Class-2-Question-Paper-2020.pdf",
+      "answer_key": "question-papers\\Class-2\\2020\\Class-2-Answer-Key-2020.pdf"
+    },
+    {
+      "class": "Class 2",
+      "year": 2021,
+      "question_paper": "question-papers\\Class-2\\2021\\Class-2-Question-Paper-2021.pdf",
+      "answer_key": "question-papers\\Class-2\\2021\\Class-2-Answer-Key-2021.pdf"
+    },
+    {
+      "class": "Class 2",
+      "year": 2022,
+      "question_paper": "question-papers\\Class-2\\2022\\Class-2-Question-Paper-2022.pdf",
+      "answer_key": "question-papers\\Class-2\\2022\\Class-2-Answer-Key-2022.pdf"
+    },
+    {
+      "class": "Class 2",
+      "year": 2023,
+      "question_paper": "question-papers\\Class-2\\2023\\Class-2-Question-Paper-2023.pdf",
+      "answer_key": "question-papers\\Class-2\\2023\\Class-2-Answer-Key-2023.pdf"
+    },
+    {
+      "class": "Class 2",
+      "year": 2024,
+      "question_paper": "question-papers\\Class-2\\2024\\Class-2-Question-Paper-2024.pdf",
+      "answer_key": "question-papers\\Class-2\\2024\\Class-2-Answer-Key-2024.pdf"
+    },
+    {
+      "class": "Class 2",
+      "year": 2025,
+      "question_paper": "question-papers\\Class-2\\2025\\Class-2-Question-Paper-2025.pdf",
+      "answer_key": "question-papers\\Class-2\\2025\\Class-2-Answer-Key-2025.pdf"
+    },
+    {
+      "class": "Class 3",
+      "year": 2020,
+      "question_paper": "question-papers\\Class-3\\2020\\Class-3-Question-Paper-2020.pdf",
+      "answer_key": "question-papers\\Class-3\\2020\\Class-3-Answer-Key-2020.pdf"
+    },
+    {
+      "class": "Class 3",
+      "year": 2021,
+      "question_paper": "question-papers\\Class-3\\2021\\Class-3-Question-Paper-2021.pdf",
+      "answer_key": "question-papers\\Class-3\\2021\\Class-3-Answer-Key-2021.pdf"
+    },
+    {
+      "class": "Class 3",
+      "year": 2022,
+      "question_paper": "question-papers\\Class-3\\2022\\Class-3-Question-Paper-2022.pdf",
+      "answer_key": "question-papers\\Class-3\\2022\\Class-3-Answer-Key-2022.pdf"
+    },
+    {
+      "class": "Class 3",
+      "year": 2023,
+      "question_paper": "question-papers\\Class-3\\2023\\Class-3-Question-Paper-2023.pdf",
+      "answer_key": "question-papers\\Class-3\\2023\\Class-3-Answer-Key-2023.pdf"
+    },
+    {
+      "class": "Class 3",
+      "year": 2024,
+      "question_paper": "question-papers\\Class-3\\2024\\Class-3-Question-Paper-2024.pdf",
+      "answer_key": "question-papers\\Class-3\\2024\\Class-3-Answer-Key-2024.pdf"
+    },
+    {
+      "class": "Class 3",
+      "year": 2025,
+      "question_paper": "question-papers\\Class-3\\2025\\Class-3-Question-Paper-2025.pdf",
+      "answer_key": "question-papers\\Class-3\\2025\\Class-3-Answer-Key-2025.pdf"
+    },
+    {
+      "class": "Class 4",
+      "year": 2020,
+      "question_paper": "question-papers\\Class-4\\2020\\Class-4-Question-Paper-2020.pdf",
+      "answer_key": "question-papers\\Class-4\\2020\\Class-4-Answer-Key-2020.pdf"
+    },
+    {
+      "class": "Class 4",
+      "year": 2021,
+      "question_paper": "question-papers\\Class-4\\2021\\Class-4-Question-Paper-2021.pdf",
+      "answer_key": "question-papers\\Class-4\\2021\\Class-4-Answer-Key-2021.pdf"
+    },
+    {
+      "class": "Class 4",
+      "year": 2022,
+      "question_paper": "question-papers\\Class-4\\2022\\Class-4-Question-Paper-2022.pdf",
+      "answer_key": "question-papers\\Class-4\\2022\\Class-4-Answer-Key-2022.pdf"
+    },
+    {
+      "class": "Class 4",
+      "year": 2023,
+      "question_paper": "question-papers\\Class-4\\2023\\Class-4-Question-Paper-2023.pdf",
+      "answer_key": "question-papers\\Class-4\\2023\\Class-4-Answer-Key-2023.pdf"
+    },
+    {
+      "class": "Class 4",
+      "year": 2024,
+      "question_paper": "question-papers\\Class-4\\2024\\Class-4-Question-Paper-2024.pdf",
+      "answer_key": "question-papers\\Class-4\\2024\\Class-4-Answer-Key-2024.pdf"
+    },
+    {
+      "class": "Class 4",
+      "year": 2025,
+      "question_paper": "question-papers\\Class-4\\2025\\Class-4-Question-Paper-2025.pdf",
+      "answer_key": "question-papers\\Class-4\\2025\\Class-4-Answer-Key-2025.pdf"
+    },
+    {
+      "class": "Class 5",
+      "year": 2020,
+      "question_paper": "question-papers\\Class-5\\2020\\Class-5-Question-Paper-2020.pdf",
+      "answer_key": "question-papers\\Class-5\\2020\\Class-5-Answer-Key-2020.pdf"
+    },
+    {
+      "class": "Class 5",
+      "year": 2021,
+      "question_paper": "question-papers\\Class-5\\2021\\Class-5-Question-Paper-2021.pdf",
+      "answer_key": "question-papers\\Class-5\\2021\\Class-5-Answer-Key-2021.pdf"
+    },
+    {
+      "class": "Class 5",
+      "year": 2022,
+      "question_paper": "question-papers\\Class-5\\2022\\Class-5-Question-Paper-2022.pdf",
+      "answer_key": "question-papers\\Class-5\\2022\\Class-5-Answer-Key-2022.pdf"
+    },
+    {
+      "class": "Class 5",
+      "year": 2023,
+      "question_paper": "question-papers\\Class-5\\2023\\Class-5-Question-Paper-2023.pdf",
+      "answer_key": "question-papers\\Class-5\\2023\\Class-5-Answer-Key-2023.pdf"
+    },
+    {
+      "class": "Class 5",
+      "year": 2024,
+      "question_paper": "question-papers\\Class-5\\2024\\Class-5-Question-Paper-2024.pdf",
+      "answer_key": "question-papers\\Class-5\\2024\\Class-5-Answer-Key-2024.pdf"
+    },
+    {
+      "class": "Class 5",
+      "year": 2025,
+      "question_paper": "question-papers\\Class-5\\2025\\Class-5-Question-Paper-2025.pdf",
+      "answer_key": "question-papers\\Class-5\\2025\\Class-5-Answer-Key-2025.pdf"
+    },
+    {
+      "class": "Class 6",
+      "year": 2020,
+      "question_paper": "question-papers\\Class-6\\2020\\Class-6-Question-Paper-2020.pdf",
+      "answer_key": "question-papers\\Class-6\\2020\\Class-6-Answer-Key-2020.pdf"
+    },
+    {
+      "class": "Class 6",
+      "year": 2021,
+      "question_paper": "question-papers\\Class-6\\2021\\Class-6-Question-Paper-2021.pdf",
+      "answer_key": "question-papers\\Class-6\\2021\\Class-6-Answer-Key-2021.pdf"
+    },
+    {
+      "class": "Class 6",
+      "year": 2022,
+      "question_paper": "question-papers\\Class-6\\2022\\Class-6-Question-Paper-2022.pdf",
+      "answer_key": "question-papers\\Class-6\\2022\\Class-6-Answer-Key-2022.pdf"
+    },
+    {
+      "class": "Class 6",
+      "year": 2023,
+      "question_paper": "question-papers\\Class-6\\2023\\Class-6-Question-Paper-2023.pdf",
+      "answer_key": "question-papers\\Class-6\\2023\\Class-6-Answer-Key-2023.pdf"
+    },
+    {
+      "class": "Class 6",
+      "year": 2024,
+      "question_paper": "question-papers\\Class-6\\2024\\Class-6-Question-Paper-2024.pdf",
+      "answer_key": "question-papers\\Class-6\\2024\\Class-6-Answer-Key-2024.pdf"
+    },
+    {
+      "class": "Class 6",
+      "year": 2025,
+      "question_paper": "question-papers\\Class-6\\2025\\Class-6-Question-Paper-2025.pdf",
+      "answer_key": "question-papers\\Class-6\\2025\\Class-6-Answer-Key-2025.pdf"
+    },
+    {
+      "class": "Class 7",
+      "year": 2020,
+      "question_paper": "question-papers\\Class-7\\2020\\Class-7-Question-Paper-2020.pdf",
+      "answer_key": "question-papers\\Class-7\\2020\\Class-7-Answer-Key-2020.pdf"
+    },
+    {
+      "class": "Class 7",
+      "year": 2021,
+      "question_paper": "question-papers\\Class-7\\2021\\Class-7-Question-Paper-2021.pdf",
+      "answer_key": "question-papers\\Class-7\\2021\\Class-7-Answer-Key-2021.pdf"
+    },
+    {
+      "class": "Class 7",
+      "year": 2022,
+      "question_paper": "question-papers\\Class-7\\2022\\Class-7-Question-Paper-2022.pdf",
+      "answer_key": "question-papers\\Class-7\\2022\\Class-7-Answer-Key-2022.pdf"
+    },
+    {
+      "class": "Class 7",
+      "year": 2023,
+      "question_paper": "question-papers\\Class-7\\2023\\Class-7-Question-Paper-2023.pdf",
+      "answer_key": "question-papers\\Class-7\\2023\\Class-7-Answer-Key-2023.pdf"
+    },
+    {
+      "class": "Class 7",
+      "year": 2024,
+      "question_paper": "question-papers\\Class-7\\2024\\Class-7-Question-Paper-2024.pdf",
+      "answer_key": "question-papers\\Class-7\\2024\\Class-7-Answer-Key-2024.pdf"
+    },
+    {
+      "class": "Class 7",
+      "year": 2025,
+      "question_paper": "question-papers\\Class-7\\2025\\Class-7-Question-Paper-2025.pdf",
+      "answer_key": "question-papers\\Class-7\\2025\\Class-7-Answer-Key-2025.pdf"
+    },
+    {
+      "class": "Class 8",
+      "year": 2020,
+      "question_paper": "question-papers\\Class-8\\2020\\Class-8-Question-Paper-2020.pdf",
+      "answer_key": "question-papers\\Class-8\\2020\\Class-8-Answer-Key-2020.pdf"
+    },
+    {
+      "class": "Class 8",
+      "year": 2021,
+      "question_paper": "question-papers\\Class-8\\2021\\Class-8-Question-Paper-2021.pdf",
+      "answer_key": "question-papers\\Class-8\\2021\\Class-8-Answer-Key-2021.pdf"
+    },
+    {
+      "class": "Class 8",
+      "year": 2022,
+      "question_paper": "question-papers\\Class-8\\2022\\Class-8-Question-Paper-2022.pdf",
+      "answer_key": "question-papers\\Class-8\\2022\\Class-8-Answer-Key-2022.pdf"
+    },
+    {
+      "class": "Class 8",
+      "year": 2023,
+      "question_paper": "question-papers\\Class-8\\2023\\Class-8-Question-Paper-2023.pdf",
+      "answer_key": "question-papers\\Class-8\\2023\\Class-8-Answer-Key-2023.pdf"
+    },
+    {
+      "class": "Class 8",
+      "year": 2024,
+      "question_paper": "question-papers\\Class-8\\2024\\Class-8-Question-Paper-2024.pdf",
+      "answer_key": "question-papers\\Class-8\\2024\\Class-8-Answer-Key-2024.pdf"
+    },
+    {
+      "class": "Class 8",
+      "year": 2025,
+      "question_paper": "question-papers\\Class-8\\2025\\Class-8-Question-Paper-2025.pdf",
+      "answer_key": "question-papers\\Class-8\\2025\\Class-8-Answer-Key-2025.pdf"
+    },
+    {
+      "class": "Class 9",
+      "year": 2020,
+      "question_paper": "question-papers\\Class-9\\2020\\Class-9-Question-Paper-2020.pdf",
+      "answer_key": "question-papers\\Class-9\\2020\\Class-9-Answer-Key-2020.pdf"
+    },
+    {
+      "class": "Class 9",
+      "year": 2021,
+      "question_paper": "question-papers\\Class-9\\2021\\Class-9-Question-Paper-2021.pdf",
+      "answer_key": "question-papers\\Class-9\\2021\\Class-9-Answer-Key-2021.pdf"
+    },
+    {
+      "class": "Class 9",
+      "year": 2022,
+      "question_paper": "question-papers\\Class-9\\2022\\Class-9-Question-Paper-2022.pdf",
+      "answer_key": "question-papers\\Class-9\\2022\\Class-9-Answer-Key-2022.pdf"
+    },
+    {
+      "class": "Class 9",
+      "year": 2023,
+      "question_paper": "question-papers\\Class-9\\2023\\Class-9-Question-Paper-2023.pdf",
+      "answer_key": "question-papers\\Class-9\\2023\\Class-9-Answer-Key-2023.pdf"
+    },
+    {
+      "class": "Class 9",
+      "year": 2024,
+      "question_paper": "question-papers\\Class-9\\2024\\Class-9-Question-Paper-2024.pdf",
+      "answer_key": "question-papers\\Class-9\\2024\\Class-9-Answer-Key-2024.pdf"
+    },
+    {
+      "class": "Class 9",
+      "year": 2025,
+      "question_paper": "question-papers\\Class-9\\2025\\Class-9-Question-Paper-2025.pdf",
+      "answer_key": "question-papers\\Class-9\\2025\\Class-9-Answer-Key-2025.pdf"
+    },
+    {
+      "class": "Class 10",
+      "year": 2020,
+      "question_paper": "question-papers\\Class-10\\2020\\Class-10-Question-Paper-2020.pdf",
+      "answer_key": "question-papers\\Class-10\\2020\\Class-10-Answer-Key-2020.pdf"
+    },
+    {
+      "class": "Class 10",
+      "year": 2021,
+      "question_paper": "question-papers\\Class-10\\2021\\Class-10-Question-Paper-2021.pdf",
+      "answer_key": "question-papers\\Class-10\\2021\\Class-10-Answer-Key-2021.pdf"
+    },
+    {
+      "class": "Class 10",
+      "year": 2022,
+      "question_paper": "question-papers\\Class-10\\2022\\Class-10-Question-Paper-2022.pdf",
+      "answer_key": "question-papers\\Class-10\\2022\\Class-10-Answer-Key-2022.pdf"
+    },
+    {
+      "class": "Class 10",
+      "year": 2023,
+      "question_paper": "question-papers\\Class-10\\2023\\Class-10-Question-Paper-2023.pdf",
+      "answer_key": "question-papers\\Class-10\\2023\\Class-10-Answer-Key-2023.pdf"
+    },
+    {
+      "class": "Class 10",
+      "year": 2024,
+      "question_paper": "question-papers\\Class-10\\2024\\Class-10-Question-Paper-2024.pdf",
+      "answer_key": "question-papers\\Class-10\\2024\\Class-10-Answer-Key-2024.pdf"
+    },
+    {
+      "class": "Class 10",
+      "year": 2025,
+      "question_paper": "question-papers\\Class-10\\2025\\Class-10-Question-Paper-2025.pdf",
+      "answer_key": "question-papers\\Class-10\\2025\\Class-10-Answer-Key-2025.pdf"
+    },
+    {
+      "class": "Class 11",
+      "year": 2020,
+      "question_paper": "question-papers\\Class-11\\2020\\Class-11-Question-Paper-2020.pdf",
+      "answer_key": "question-papers\\Class-11\\2020\\Class-11-Answer-Key-2020.pdf"
+    },
+    {
+      "class": "Class 11",
+      "year": 2021,
+      "question_paper": "question-papers\\Class-11\\2021\\Class-11-Question-Paper-2021.pdf",
+      "answer_key": "question-papers\\Class-11\\2021\\Class-11-Answer-Key-2021.pdf"
+    },
+    {
+      "class": "Class 11",
+      "year": 2022,
+      "question_paper": "question-papers\\Class-11\\2022\\Class-11-Question-Paper-2022.pdf",
+      "answer_key": "question-papers\\Class-11\\2022\\Class-11-Answer-Key-2022.pdf"
+    },
+    {
+      "class": "Class 11",
+      "year": 2023,
+      "question_paper": "question-papers\\Class-11\\2023\\Class-11-Question-Paper-2023.pdf",
+      "answer_key": "question-papers\\Class-11\\2023\\Class-11-Answer-Key-2023.pdf"
+    },
+    {
+      "class": "Class 11",
+      "year": 2024,
+      "question_paper": "question-papers\\Class-11\\2024\\Class-11-Question-Paper-2024.pdf",
+      "answer_key": "question-papers\\Class-11\\2024\\Class-11-Answer-Key-2024.pdf"
+    },
+    {
+      "class": "Class 11",
+      "year": 2025,
+      "question_paper": "question-papers\\Class-11\\2025\\Class-11-Question-Paper-2025.pdf",
+      "answer_key": "question-papers\\Class-11\\2025\\Class-11-Answer-Key-2025.pdf"
+    },
+    {
+      "class": "Class 12",
+      "year": 2020,
+      "question_paper": "question-papers\\Class-12\\2020\\Class-12-Question-Paper-2020.pdf",
+      "answer_key": "question-papers\\Class-12\\2020\\Class-12-Answer-Key-2020.pdf"
+    },
+    {
+      "class": "Class 12",
+      "year": 2021,
+      "question_paper": "question-papers\\Class-12\\2021\\Class-12-Question-Paper-2021.pdf",
+      "answer_key": "question-papers\\Class-12\\2021\\Class-12-Answer-Key-2021.pdf"
+    },
+    {
+      "class": "Class 12",
+      "year": 2022,
+      "question_paper": "question-papers\\Class-12\\2022\\Class-12-Question-Paper-2022.pdf",
+      "answer_key": "question-papers\\Class-12\\2022\\Class-12-Answer-Key-2022.pdf"
+    },
+    {
+      "class": "Class 12",
+      "year": 2023,
+      "question_paper": "question-papers\\Class-12\\2023\\Class-12-Question-Paper-2023.pdf",
+      "answer_key": "question-papers\\Class-12\\2023\\Class-12-Answer-Key-2023.pdf"
+    },
+    {
+      "class": "Class 12",
+      "year": 2024,
+      "question_paper": "question-papers\\Class-12\\2024\\Class-12-Question-Paper-2024.pdf",
+      "answer_key": "question-papers\\Class-12\\2024\\Class-12-Answer-Key-2024.pdf"
+    },
+    {
+      "class": "Class 12",
+      "year": 2025,
+      "question_paper": "question-papers\\Class-12\\2025\\Class-12-Question-Paper-2025.pdf",
+      "answer_key": "question-papers\\Class-12\\2025\\Class-12-Answer-Key-2025.pdf"
+    }
+  ],
+  "total_papers": 72
+}
